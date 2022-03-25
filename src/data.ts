@@ -2,9 +2,11 @@ import { GPAData, StandardizedTestData } from "./types/naviance";
 import { getPercentileFromData, satData, actData } from "./utils/naviance";
 
 const SCORE_KEYS: {
-  [key: string]: "studentSAT1600Composite" | "actComposite";
+  // [key: string]: "studentSAT1600Composite" | "actComposite";
+  [key: string]: "highestComboSat" | "actComposite";
 } = {
-  sat: "studentSAT1600Composite",
+  // sat: "studentSAT1600Composite",
+  sat: "highestComboSat",
   act: "actComposite",
 };
 
