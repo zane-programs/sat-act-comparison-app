@@ -1,0 +1,68 @@
+{
+  "name": "Howard University",
+  "uuid": "13f4d192-07e0-47a0-9b91-2bbfb089f776",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1270,
+            "75": 1320
+          },
+          "satMath": {
+            "25": 630,
+            "75": 690
+          },
+          "satReadingWriting": {
+            "25": 630,
+            "75": 650
+          }
+        },
+        "gpa": {
+          "25": 3.24,
+          "75": 3.76
+        },
+        "weightedGpa": {
+          "25": 3.24,
+          "75": 3.76
+        },
+        "gpaConverted": {
+          "25": 3.24,
+          "75": 3.76
+        },
+        "weightedGpaConverted": {
+          "25": 3.24,
+          "75": 3.76
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

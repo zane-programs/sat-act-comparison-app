@@ -1,0 +1,144 @@
+{
+  "name": "Williams College",
+  "uuid": "3d84765c-18c9-4b29-b17b-4e13c180f281",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 13,
+        "gpaSum": 54.31,
+        "gpaAvg": 4.18,
+        "gpaConvSum": 54.3,
+        "gpaConvAvg": 4.18,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 13,
+        "gpaSum": 54.31,
+        "gpaAvg": 4.18,
+        "gpaConvSum": 54.3,
+        "gpaConvAvg": 4.18,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 33.5,
+            "75": 34.5
+          },
+          "actEnglish": {
+            "25": 35.25,
+            "75": 35.75
+          },
+          "actMath": {
+            "25": 32.25,
+            "75": 32.75
+          },
+          "actReading": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 31.75,
+            "75": 33.25
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1530,
+            "75": 1550
+          },
+          "satMath": {
+            "25": 750,
+            "75": 770
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 790
+          }
+        },
+        "gpa": {
+          "25": 4.039999999999999,
+          "75": 4.2524999999999995
+        },
+        "weightedGpa": {
+          "25": 4.039999999999999,
+          "75": 4.2524999999999995
+        },
+        "gpaConverted": {
+          "25": 4.039999999999999,
+          "75": 4.2524999999999995
+        },
+        "weightedGpaConverted": {
+          "25": 4.039999999999999,
+          "75": 4.2524999999999995
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 33.5,
+            "75": 34.5
+          },
+          "actEnglish": {
+            "25": 35.25,
+            "75": 35.75
+          },
+          "actMath": {
+            "25": 32.25,
+            "75": 32.75
+          },
+          "actReading": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 31.75,
+            "75": 33.25
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1552.5,
+            "75": 1557.5
+          },
+          "satMath": {
+            "25": 725,
+            "75": 755
+          },
+          "satReadingWriting": {
+            "25": 792.5,
+            "75": 797.5
+          }
+        },
+        "gpa": {
+          "25": 4.06,
+          "75": 4.165
+        },
+        "weightedGpa": {
+          "25": 4.06,
+          "75": 4.165
+        },
+        "gpaConverted": {
+          "25": 4.06,
+          "75": 4.165
+        },
+        "weightedGpaConverted": {
+          "25": 4.06,
+          "75": 4.165
+        }
+      }
+    }
+  }
+}

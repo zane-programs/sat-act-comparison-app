@@ -1,0 +1,98 @@
+{
+  "name": "Seattle University",
+  "uuid": "6b51435e-f1da-455e-b6d6-f3bc70dbf2dc",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 30.5
+          },
+          "actEnglish": {
+            "25": 27,
+            "75": 34
+          },
+          "actMath": {
+            "25": 23.5,
+            "75": 28.5
+          },
+          "actReading": {
+            "25": 29,
+            "75": 33.5
+          },
+          "actScience": {
+            "25": 25.5,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 16.5,
+            "75": 24.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1085,
+            "75": 1325
+          },
+          "satMath": {
+            "25": 505,
+            "75": 665
+          },
+          "satReadingWriting": {
+            "25": 580,
+            "75": 660
+          }
+        },
+        "gpa": {
+          "25": 3.25,
+          "75": 3.55
+        },
+        "weightedGpa": {
+          "25": 3.25,
+          "75": 3.55
+        },
+        "gpaConverted": {
+          "25": 3.25,
+          "75": 3.55
+        },
+        "weightedGpaConverted": {
+          "25": 3.25,
+          "75": 3.55
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "weightedGpa": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "gpaConverted": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "weightedGpaConverted": {
+          "25": 3.14,
+          "75": 3.14
+        }
+      }
+    }
+  }
+}

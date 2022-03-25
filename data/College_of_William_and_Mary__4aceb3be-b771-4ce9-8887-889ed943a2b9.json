@@ -1,0 +1,105 @@
+{
+  "name": "College of William and Mary",
+  "uuid": "4aceb3be-b771-4ce9-8887-889ed943a2b9",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 9,
+        "gpaSum": 35.65,
+        "gpaAvg": 3.96,
+        "gpaConvSum": 35.65,
+        "gpaConvAvg": 3.96,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 9,
+        "gpaSum": 35.65,
+        "gpaAvg": 3.96,
+        "gpaConvSum": 35.65,
+        "gpaConvAvg": 3.96,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 35,
+            "75": 35
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 35,
+            "75": 35
+          },
+          "actScience": {
+            "25": 34,
+            "75": 34
+          },
+          "actWriting": {
+            "25": 10,
+            "75": 10
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1440,
+            "75": 1440
+          },
+          "satMath": {
+            "25": 690,
+            "75": 690
+          },
+          "satReadingWriting": {
+            "25": 750,
+            "75": 750
+          }
+        },
+        "gpa": {
+          "25": 3.96,
+          "75": 3.96
+        },
+        "weightedGpa": {
+          "25": 3.96,
+          "75": 3.96
+        },
+        "gpaConverted": {
+          "25": 3.96,
+          "75": 3.96
+        },
+        "weightedGpaConverted": {
+          "25": 3.96,
+          "75": 3.96
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}
