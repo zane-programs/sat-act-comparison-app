@@ -1,0 +1,68 @@
+{
+  "name": "Emory University-Oxford College",
+  "uuid": "071567b8-0a38-4cab-9684-2f4d2d19c6a6",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1350,
+            "75": 1350
+          },
+          "satMath": {
+            "25": 630,
+            "75": 630
+          },
+          "satReadingWriting": {
+            "25": 720,
+            "75": 720
+          }
+        },
+        "gpa": {
+          "25": 4.06,
+          "75": 4.06
+        },
+        "weightedGpa": {
+          "25": 4.06,
+          "75": 4.06
+        },
+        "gpaConverted": {
+          "25": 4.06,
+          "75": 4.06
+        },
+        "weightedGpaConverted": {
+          "25": 4.06,
+          "75": 4.06
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

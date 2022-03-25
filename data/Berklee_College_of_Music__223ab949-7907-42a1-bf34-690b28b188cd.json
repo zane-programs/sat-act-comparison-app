@@ -1,0 +1,86 @@
+{
+  "name": "Berklee College of Music",
+  "uuid": "223ab949-7907-42a1-bf34-690b28b188cd",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 36,
+            "75": 36
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35
+          },
+          "actMath": {
+            "25": 36,
+            "75": 36
+          },
+          "actReading": {
+            "25": 36,
+            "75": 36
+          },
+          "actScience": {
+            "25": 35,
+            "75": 35
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1450,
+            "75": 1450
+          },
+          "satMath": {
+            "25": 740,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 720,
+            "75": 720
+          }
+        },
+        "gpa": {
+          "25": 3.7024999999999997,
+          "75": 4.047499999999999
+        },
+        "weightedGpa": {
+          "25": 3.7024999999999997,
+          "75": 4.047499999999999
+        },
+        "gpaConverted": {
+          "25": 3.7024999999999997,
+          "75": 4.047499999999999
+        },
+        "weightedGpaConverted": {
+          "25": 3.7024999999999997,
+          "75": 4.047499999999999
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

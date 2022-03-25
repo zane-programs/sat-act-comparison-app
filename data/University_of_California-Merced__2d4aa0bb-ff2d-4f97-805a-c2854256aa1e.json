@@ -1,0 +1,68 @@
+{
+  "name": "University of California-Merced",
+  "uuid": "2d4aa0bb-ff2d-4f97-805a-c2854256aa1e",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1275,
+            "75": 1325
+          },
+          "satMath": {
+            "25": 585,
+            "75": 615
+          },
+          "satReadingWriting": {
+            "25": 667.5,
+            "75": 702.5
+          }
+        },
+        "gpa": {
+          "25": 3.33,
+          "75": 3.705
+        },
+        "weightedGpa": {
+          "25": 3.33,
+          "75": 3.705
+        },
+        "gpaConverted": {
+          "25": 3.33,
+          "75": 3.705
+        },
+        "weightedGpaConverted": {
+          "25": 3.33,
+          "75": 3.705
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

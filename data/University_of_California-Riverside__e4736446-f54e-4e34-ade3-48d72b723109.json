@@ -1,0 +1,105 @@
+{
+  "name": "University of California-Riverside",
+  "uuid": "e4736446-f54e-4e34-ade3-48d72b723109",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 8,
+        "gpaSum": 28.68,
+        "gpaAvg": 3.59,
+        "gpaConvSum": 28.68,
+        "gpaConvAvg": 3.59,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 8,
+        "gpaSum": 28.68,
+        "gpaAvg": 3.59,
+        "gpaConvSum": 28.68,
+        "gpaConvAvg": 3.59,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26.25,
+            "75": 28.5
+          },
+          "actEnglish": {
+            "25": 27,
+            "75": 32.75
+          },
+          "actMath": {
+            "25": 27,
+            "75": 29
+          },
+          "actReading": {
+            "25": 24.5,
+            "75": 27.75
+          },
+          "actScience": {
+            "25": 25.25,
+            "75": 26.75
+          },
+          "actWriting": {
+            "25": 7.25,
+            "75": 8.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1275,
+            "75": 1325
+          },
+          "satMath": {
+            "25": 585,
+            "75": 615
+          },
+          "satReadingWriting": {
+            "25": 667.5,
+            "75": 702.5
+          }
+        },
+        "gpa": {
+          "25": 3.56,
+          "75": 3.8525
+        },
+        "weightedGpa": {
+          "25": 3.56,
+          "75": 3.8525
+        },
+        "gpaConverted": {
+          "25": 3.56,
+          "75": 3.8525
+        },
+        "weightedGpaConverted": {
+          "25": 3.56,
+          "75": 3.8525
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

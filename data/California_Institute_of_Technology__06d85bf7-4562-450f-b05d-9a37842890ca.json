@@ -1,0 +1,135 @@
+{
+  "name": "California Institute of Technology",
+  "uuid": "06d85bf7-4562-450f-b05d-9a37842890ca",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 7,
+        "gpaSum": 28.73,
+        "gpaAvg": 4.1,
+        "gpaConvSum": 28.72,
+        "gpaConvAvg": 4.1,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 7,
+        "gpaSum": 28.73,
+        "gpaAvg": 4.1,
+        "gpaConvSum": 28.72,
+        "gpaConvAvg": 4.1,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 35,
+            "75": 35
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 35,
+            "75": 35
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1540,
+            "75": 1540
+          },
+          "satMath": {
+            "25": 770,
+            "75": 770
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 4.234999999999999,
+          "75": 4.265000000000001
+        },
+        "weightedGpa": {
+          "25": 4.234999999999999,
+          "75": 4.265000000000001
+        },
+        "gpaConverted": {
+          "25": 4.234999999999999,
+          "75": 4.265000000000001
+        },
+        "weightedGpaConverted": {
+          "25": 4.234999999999999,
+          "75": 4.265000000000001
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 35,
+            "75": 35
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 35,
+            "75": 35
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 4.22,
+          "75": 4.22
+        },
+        "weightedGpa": {
+          "25": 4.22,
+          "75": 4.22
+        },
+        "gpaConverted": {
+          "25": 4.22,
+          "75": 4.22
+        },
+        "weightedGpaConverted": {
+          "25": 4.22,
+          "75": 4.22
+        }
+      }
+    }
+  }
+}

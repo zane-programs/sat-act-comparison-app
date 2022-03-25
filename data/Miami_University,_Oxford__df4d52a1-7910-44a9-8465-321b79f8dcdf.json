@@ -1,0 +1,107 @@
+{
+  "name": "Miami University, Oxford",
+  "uuid": "df4d52a1-7910-44a9-8465-321b79f8dcdf",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 33.75,
+            "75": 35.25
+          },
+          "actMath": {
+            "25": 26.25,
+            "75": 30.75
+          },
+          "actReading": {
+            "25": 28.25,
+            "75": 32.75
+          },
+          "actScience": {
+            "25": 30,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 9.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1252.5,
+            "75": 1357.5
+          },
+          "satMath": {
+            "25": 592.5,
+            "75": 637.5
+          },
+          "satReadingWriting": {
+            "25": 647.5,
+            "75": 702.5
+          }
+        },
+        "gpa": {
+          "25": 3.14,
+          "75": 3.46
+        },
+        "weightedGpa": {
+          "25": 3.14,
+          "75": 3.46
+        },
+        "gpaConverted": {
+          "25": 3.14,
+          "75": 3.46
+        },
+        "weightedGpaConverted": {
+          "25": 3.14,
+          "75": 3.46
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1200,
+            "75": 1200
+          },
+          "satMath": {
+            "25": 570,
+            "75": 570
+          },
+          "satReadingWriting": {
+            "25": 620,
+            "75": 620
+          }
+        },
+        "gpa": {
+          "25": 2.96,
+          "75": 2.96
+        },
+        "weightedGpa": {
+          "25": 2.96,
+          "75": 2.96
+        },
+        "gpaConverted": {
+          "25": 2.96,
+          "75": 2.96
+        },
+        "weightedGpaConverted": {
+          "25": 2.96,
+          "75": 2.96
+        }
+      }
+    }
+  }
+}
