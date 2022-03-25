@@ -4,10 +4,10 @@
   "data": {
     "scattergrams": {
       "gpa": {
-        "gpaCount": 40,
-        "gpaSum": 165.03,
-        "gpaAvg": 4.13,
-        "gpaConvSum": 164.99,
+        "gpaCount": 39,
+        "gpaSum": 160.82,
+        "gpaAvg": 4.12,
+        "gpaConvSum": 160.78,
         "gpaConvAvg": 4.12,
         "act": {
           "count": 2,
@@ -350,10 +350,10 @@
         }
       },
       "weightedGpa": {
-        "gpaCount": 40,
-        "gpaSum": 165.03,
-        "gpaAvg": 4.13,
-        "gpaConvSum": 164.99,
+        "gpaCount": 39,
+        "gpaSum": 160.82,
+        "gpaAvg": 4.12,
+        "gpaConvSum": 160.78,
         "gpaConvAvg": 4.12,
         "act": {
           "count": 2,

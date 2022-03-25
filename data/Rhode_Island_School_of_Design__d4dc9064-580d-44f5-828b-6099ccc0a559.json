@@ -1,0 +1,125 @@
+{
+  "name": "Rhode Island School of Design",
+  "uuid": "d4dc9064-580d-44f5-828b-6099ccc0a559",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 26
+          },
+          "actEnglish": {
+            "25": 27,
+            "75": 27
+          },
+          "actMath": {
+            "25": 24,
+            "75": 24
+          },
+          "actReading": {
+            "25": 28,
+            "75": 28
+          },
+          "actScience": {
+            "25": 24,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 24,
+            "75": 24
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1260,
+            "75": 1260
+          },
+          "satMath": {
+            "25": 590,
+            "75": 590
+          },
+          "satReadingWriting": {
+            "25": 670,
+            "75": 670
+          }
+        },
+        "gpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "gpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 26
+          },
+          "actEnglish": {
+            "25": 27,
+            "75": 27
+          },
+          "actMath": {
+            "25": 24,
+            "75": 24
+          },
+          "actReading": {
+            "25": 28,
+            "75": 28
+          },
+          "actScience": {
+            "25": 24,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 24,
+            "75": 24
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1260,
+            "75": 1260
+          },
+          "satMath": {
+            "25": 590,
+            "75": 590
+          },
+          "satReadingWriting": {
+            "25": 670,
+            "75": 670
+          }
+        },
+        "gpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "gpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        }
+      }
+    }
+  }
+}

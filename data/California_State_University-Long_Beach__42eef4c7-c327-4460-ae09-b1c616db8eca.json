@@ -1,0 +1,105 @@
+{
+  "name": "California State University-Long Beach",
+  "uuid": "42eef4c7-c327-4460-ae09-b1c616db8eca",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 5,
+        "gpaSum": 17.78,
+        "gpaAvg": 3.56,
+        "gpaConvSum": 17.78,
+        "gpaConvAvg": 3.56,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 5,
+        "gpaSum": 17.78,
+        "gpaAvg": 3.56,
+        "gpaConvSum": 17.78,
+        "gpaConvAvg": 3.56,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 25,
+            "75": 25
+          },
+          "actMath": {
+            "25": 29,
+            "75": 29
+          },
+          "actReading": {
+            "25": 33,
+            "75": 33
+          },
+          "actScience": {
+            "25": 33,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 0,
+            "75": 0
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1332.5,
+            "75": 1377.5
+          },
+          "satMath": {
+            "25": 652.5,
+            "75": 697.5
+          },
+          "satReadingWriting": {
+            "25": 680,
+            "75": 680
+          }
+        },
+        "gpa": {
+          "25": 3.3600000000000003,
+          "75": 3.815
+        },
+        "weightedGpa": {
+          "25": 3.3600000000000003,
+          "75": 3.815
+        },
+        "gpaConverted": {
+          "25": 3.3600000000000003,
+          "75": 3.815
+        },
+        "weightedGpaConverted": {
+          "25": 3.3600000000000003,
+          "75": 3.815
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "California State University-Northridge",
+  "uuid": "64214ede-090e-49c8-b91a-9df50a49fac0",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 9,
+        "gpaSum": 31.25,
+        "gpaAvg": 3.47,
+        "gpaConvSum": 31.25,
+        "gpaConvAvg": 3.47,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 9,
+        "gpaSum": 31.25,
+        "gpaAvg": 3.47,
+        "gpaConvSum": 31.25,
+        "gpaConvAvg": 3.47,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 22.75,
+            "75": 29.25
+          },
+          "actEnglish": {
+            "25": 24,
+            "75": 33.75
+          },
+          "actMath": {
+            "25": 24.5,
+            "75": 27
+          },
+          "actReading": {
+            "25": 25.25,
+            "75": 33
+          },
+          "actScience": {
+            "25": 22.75,
+            "75": 28.75
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 20.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1170,
+            "75": 1310
+          },
+          "satMath": {
+            "25": 550,
+            "75": 580
+          },
+          "satReadingWriting": {
+            "25": 630,
+            "75": 680
+          }
+        },
+        "gpa": {
+          "25": 3.045,
+          "75": 3.715
+        },
+        "weightedGpa": {
+          "25": 3.045,
+          "75": 3.715
+        },
+        "gpaConverted": {
+          "25": 3.045,
+          "75": 3.715
+        },
+        "weightedGpaConverted": {
+          "25": 3.045,
+          "75": 3.715
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 21,
+            "75": 21
+          },
+          "actEnglish": {
+            "25": 21,
+            "75": 21
+          },
+          "actMath": {
+            "25": 18,
+            "75": 18
+          },
+          "actReading": {
+            "25": 25,
+            "75": 25
+          },
+          "actScience": {
+            "25": 20,
+            "75": 20
+          },
+          "actWriting": {
+            "25": 24,
+            "75": 24
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1090,
+            "75": 1090
+          },
+          "satMath": {
+            "25": 520,
+            "75": 520
+          },
+          "satReadingWriting": {
+            "25": 570,
+            "75": 570
+          }
+        },
+        "gpa": {
+          "25": 2.95,
+          "75": 3.1399999999999997
+        },
+        "weightedGpa": {
+          "25": 2.95,
+          "75": 3.1399999999999997
+        },
+        "gpaConverted": {
+          "25": 2.95,
+          "75": 3.1399999999999997
+        },
+        "weightedGpaConverted": {
+          "25": 2.95,
+          "75": 3.1399999999999997
+        }
+      }
+    }
+  }
+}

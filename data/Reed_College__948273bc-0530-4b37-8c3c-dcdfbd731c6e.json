@@ -1,0 +1,246 @@
+{
+  "name": "Reed College",
+  "uuid": "948273bc-0530-4b37-8c3c-dcdfbd731c6e",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 9,
+        "gpaSum": 36.49,
+        "gpaAvg": 4.05,
+        "gpaConvSum": 36.49,
+        "gpaConvAvg": 4.05,
+        "act": null,
+        "sat": {
+          "count": 5,
+          "sum": 7020,
+          "avg": 1404,
+          "gpaCount": 5,
+          "gpaSum": 20.37,
+          "gpaAvg": 4.07,
+          "gpaConvSum": 20.37,
+          "gpaConvAvg": 4.07,
+          "apps": {
+            "acceptedED": [
+              {
+                "currentStudent": false,
+                "typeName": "ED",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1310,
+                "studentSAT1600Composite": 1310,
+                "gpa": 3.96
+              }
+            ],
+            "acceptedEA": [
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1280,
+                "studentSAT1600Composite": 1230,
+                "gpa": 3.99
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1430,
+                "studentSAT1600Composite": 1430,
+                "gpa": 4.07
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1590,
+                "studentSAT1600Composite": 1590,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1410,
+                "studentSAT1600Composite": 1410,
+                "gpa": 4.29
+              }
+            ]
+          }
+        }
+      },
+      "weightedGpa": {
+        "gpaCount": 9,
+        "gpaSum": 36.49,
+        "gpaAvg": 4.05,
+        "gpaConvSum": 36.49,
+        "gpaConvAvg": 4.05,
+        "act": null,
+        "sat": {
+          "count": 5,
+          "sum": 7020,
+          "avg": 1404,
+          "gpaCount": 5,
+          "gpaSum": 20.37,
+          "gpaAvg": 4.07,
+          "gpaConvSum": 20.37,
+          "gpaConvAvg": 4.07,
+          "apps": {
+            "acceptedED": [
+              {
+                "currentStudent": false,
+                "typeName": "ED",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1310,
+                "studentSAT1600Composite": 1310,
+                "gpa": 3.96
+              }
+            ],
+            "acceptedEA": [
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1280,
+                "studentSAT1600Composite": 1230,
+                "gpa": 3.99
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1430,
+                "studentSAT1600Composite": 1430,
+                "gpa": 4.07
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1590,
+                "studentSAT1600Composite": 1590,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1410,
+                "studentSAT1600Composite": 1410,
+                "gpa": 4.29
+              }
+            ]
+          }
+        }
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 36,
+            "75": 36
+          },
+          "actMath": {
+            "25": 29,
+            "75": 29
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 29,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 7
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1360,
+            "75": 1515
+          },
+          "satMath": {
+            "25": 660,
+            "75": 745
+          },
+          "satReadingWriting": {
+            "25": 720,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 3.93,
+          "75": 4.06
+        },
+        "weightedGpa": {
+          "25": 3.93,
+          "75": 4.06
+        },
+        "gpaConverted": {
+          "25": 3.93,
+          "75": 4.06
+        },
+        "weightedGpaConverted": {
+          "25": 3.93,
+          "75": 4.06
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1367.5,
+            "75": 1482.5
+          },
+          "satMath": {
+            "25": 630,
+            "75": 730
+          },
+          "satReadingWriting": {
+            "25": 740,
+            "75": 760
+          }
+        },
+        "gpa": {
+          "25": 3.79,
+          "75": 3.9450000000000003
+        },
+        "weightedGpa": {
+          "25": 3.79,
+          "75": 3.9450000000000003
+        },
+        "gpaConverted": {
+          "25": 3.79,
+          "75": 3.9450000000000003
+        },
+        "weightedGpaConverted": {
+          "25": 3.79,
+          "75": 3.9450000000000003
+        }
+      }
+    }
+  }
+}

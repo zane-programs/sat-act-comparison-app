@@ -1,0 +1,86 @@
+{
+  "name": "California State University-Los Angeles",
+  "uuid": "40f36900-02d8-4813-8af0-3ee8ca0be2ec",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 21,
+            "75": 21
+          },
+          "actEnglish": {
+            "25": 21,
+            "75": 21
+          },
+          "actMath": {
+            "25": 18,
+            "75": 18
+          },
+          "actReading": {
+            "25": 25,
+            "75": 25
+          },
+          "actScience": {
+            "25": 20,
+            "75": 20
+          },
+          "actWriting": {
+            "25": 24,
+            "75": 24
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1090,
+            "75": 1090
+          },
+          "satMath": {
+            "25": 520,
+            "75": 520
+          },
+          "satReadingWriting": {
+            "25": 570,
+            "75": 570
+          }
+        },
+        "gpa": {
+          "25": 3.1,
+          "75": 3.545
+        },
+        "weightedGpa": {
+          "25": 3.1,
+          "75": 3.545
+        },
+        "gpaConverted": {
+          "25": 3.1,
+          "75": 3.545
+        },
+        "weightedGpaConverted": {
+          "25": 3.1,
+          "75": 3.545
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}
