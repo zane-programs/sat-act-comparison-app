@@ -1,7 +1,12 @@
 import { useMemo } from "react";
-import Plot from "react-plotly.js";
+import createPlotlyComponent from "react-plotly.js/factory";
+import Plotly from "plotly.js-basic-dist";
+
 import { convertParsedDataForGraphing } from "../utils/naviance";
 import { CollegeData } from "../data";
+
+// create Plot component
+const Plot = createPlotlyComponent(Plotly);
 
 export default function CollegeScatterPlot({
   college,
