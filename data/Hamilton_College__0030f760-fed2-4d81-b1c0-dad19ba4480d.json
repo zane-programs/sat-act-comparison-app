@@ -1,0 +1,105 @@
+{
+  "name": "Hamilton College",
+  "uuid": "0030f760-fed2-4d81-b1c0-dad19ba4480d",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 10,
+        "gpaSum": 40.46,
+        "gpaAvg": 4.05,
+        "gpaConvSum": 40.45,
+        "gpaConvAvg": 4.05,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 10,
+        "gpaSum": 40.46,
+        "gpaAvg": 4.05,
+        "gpaConvSum": 40.45,
+        "gpaConvAvg": 4.05,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 29.5,
+            "75": 32.5
+          },
+          "actEnglish": {
+            "25": 31.25,
+            "75": 33.75
+          },
+          "actMath": {
+            "25": 28.5,
+            "75": 31.5
+          },
+          "actReading": {
+            "25": 30.25,
+            "75": 32.75
+          },
+          "actScience": {
+            "25": 27.75,
+            "75": 31.25
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1375,
+            "75": 1470
+          },
+          "satMath": {
+            "25": 700,
+            "75": 780
+          },
+          "satReadingWriting": {
+            "25": 685,
+            "75": 705
+          }
+        },
+        "gpa": {
+          "25": 3.865,
+          "75": 4.255
+        },
+        "weightedGpa": {
+          "25": 3.865,
+          "75": 4.255
+        },
+        "gpaConverted": {
+          "25": 3.865,
+          "75": 4.25
+        },
+        "weightedGpaConverted": {
+          "25": 3.865,
+          "75": 4.25
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

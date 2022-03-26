@@ -1,0 +1,68 @@
+{
+  "name": "University of Georgia",
+  "uuid": "e3bd82ba-1767-4b00-a028-87befa34b3b0",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1455,
+            "75": 1505
+          },
+          "satMath": {
+            "25": 727.5,
+            "75": 742.5
+          },
+          "satReadingWriting": {
+            "25": 735,
+            "75": 765
+          }
+        },
+        "gpa": {
+          "25": 4.1925,
+          "75": 4.2375
+        },
+        "weightedGpa": {
+          "25": 4.1925,
+          "75": 4.2375
+        },
+        "gpaConverted": {
+          "25": 4.1925,
+          "75": 4.2375
+        },
+        "weightedGpaConverted": {
+          "25": 4.1925,
+          "75": 4.2375
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

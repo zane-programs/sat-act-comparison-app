@@ -1,0 +1,144 @@
+{
+  "name": "Arizona State University-Tempe",
+  "uuid": "ecb44d1e-3934-4e26-8661-336451d1c637",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 15,
+        "gpaSum": 53.42,
+        "gpaAvg": 3.56,
+        "gpaConvSum": 53.42,
+        "gpaConvAvg": 3.56,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 15,
+        "gpaSum": 53.42,
+        "gpaAvg": 3.56,
+        "gpaConvSum": 53.42,
+        "gpaConvAvg": 3.56,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26.25,
+            "75": 31.75
+          },
+          "actEnglish": {
+            "25": 25.5,
+            "75": 33.75
+          },
+          "actMath": {
+            "25": 27.25,
+            "75": 29.75
+          },
+          "actReading": {
+            "25": 26.25,
+            "75": 31.5
+          },
+          "actScience": {
+            "25": 24.25,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1200,
+            "75": 1362.5
+          },
+          "satMath": {
+            "25": 562.5,
+            "75": 705
+          },
+          "satReadingWriting": {
+            "25": 622.5,
+            "75": 685
+          }
+        },
+        "gpa": {
+          "25": 3.22,
+          "75": 3.735
+        },
+        "weightedGpa": {
+          "25": 3.22,
+          "75": 3.735
+        },
+        "gpaConverted": {
+          "25": 3.22,
+          "75": 3.735
+        },
+        "weightedGpaConverted": {
+          "25": 3.22,
+          "75": 3.735
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 22,
+            "75": 22
+          },
+          "actEnglish": {
+            "25": 21,
+            "75": 21
+          },
+          "actMath": {
+            "25": 19,
+            "75": 19
+          },
+          "actReading": {
+            "25": 25,
+            "75": 25
+          },
+          "actScience": {
+            "25": 22,
+            "75": 22
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 850,
+            "75": 850
+          },
+          "satMath": {
+            "25": 350,
+            "75": 350
+          },
+          "satReadingWriting": {
+            "25": 500,
+            "75": 500
+          }
+        },
+        "gpa": {
+          "25": 3.36,
+          "75": 3.36
+        },
+        "weightedGpa": {
+          "25": 3.36,
+          "75": 3.36
+        },
+        "gpaConverted": {
+          "25": 3.36,
+          "75": 3.36
+        },
+        "weightedGpaConverted": {
+          "25": 3.36,
+          "75": 3.36
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Grinnell College",
+  "uuid": "50d56173-51e4-4842-8808-1f019746b21e",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1520,
+            "75": 1540
+          },
+          "satMath": {
+            "25": 740,
+            "75": 750
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 785
+          }
+        },
+        "gpa": {
+          "25": 3.8225,
+          "75": 4.2725
+        },
+        "weightedGpa": {
+          "25": 3.8225,
+          "75": 4.2725
+        },
+        "gpaConverted": {
+          "25": 3.8225,
+          "75": 4.2725
+        },
+        "weightedGpaConverted": {
+          "25": 3.8225,
+          "75": 4.2725
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1520,
+            "75": 1540
+          },
+          "satMath": {
+            "25": 740,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 777.5,
+            "75": 792.5
+          }
+        },
+        "gpa": {
+          "25": 3.995,
+          "75": 4.225
+        },
+        "weightedGpa": {
+          "25": 3.995,
+          "75": 4.225
+        },
+        "gpaConverted": {
+          "25": 3.995,
+          "75": 4.225
+        },
+        "weightedGpaConverted": {
+          "25": 3.995,
+          "75": 4.225
+        }
+      }
+    }
+  }
+}

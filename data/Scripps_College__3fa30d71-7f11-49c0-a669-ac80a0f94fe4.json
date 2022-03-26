@@ -1,0 +1,126 @@
+{
+  "name": "Scripps College",
+  "uuid": "3fa30d71-7f11-49c0-a669-ac80a0f94fe4",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.14,
+        "gpaAvg": 3.79,
+        "gpaConvSum": 15.14,
+        "gpaConvAvg": 3.79,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.14,
+        "gpaAvg": 3.79,
+        "gpaConvSum": 15.14,
+        "gpaConvAvg": 3.79,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 29.5
+          },
+          "actEnglish": {
+            "25": 32.5,
+            "75": 33
+          },
+          "actMath": {
+            "25": 27,
+            "75": 28
+          },
+          "actReading": {
+            "25": 29.5,
+            "75": 30.5
+          },
+          "actScience": {
+            "25": 28,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 16.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1340,
+            "75": 1455
+          },
+          "satMath": {
+            "25": 665,
+            "75": 765
+          },
+          "satReadingWriting": {
+            "25": 700,
+            "75": 725
+          }
+        },
+        "gpa": {
+          "25": 3.7775,
+          "75": 4.035
+        },
+        "weightedGpa": {
+          "25": 3.7775,
+          "75": 4.035
+        },
+        "gpaConverted": {
+          "25": 3.7775,
+          "75": 4.035
+        },
+        "weightedGpaConverted": {
+          "25": 3.7775,
+          "75": 4.035
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1340,
+            "75": 1455
+          },
+          "satMath": {
+            "25": 665,
+            "75": 765
+          },
+          "satReadingWriting": {
+            "25": 700,
+            "75": 725
+          }
+        },
+        "gpa": {
+          "25": 3.8,
+          "75": 4.029999999999999
+        },
+        "weightedGpa": {
+          "25": 3.8,
+          "75": 4.029999999999999
+        },
+        "gpaConverted": {
+          "25": 3.8,
+          "75": 4.029999999999999
+        },
+        "weightedGpaConverted": {
+          "25": 3.8,
+          "75": 4.029999999999999
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "University of Notre Dame",
+  "uuid": "9dd88416-26b1-4010-96c4-7fb913fdf78a",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 5,
+        "gpaSum": 20.07,
+        "gpaAvg": 4.01,
+        "gpaConvSum": 20.07,
+        "gpaConvAvg": 4.01,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 5,
+        "gpaSum": 20.07,
+        "gpaAvg": 4.01,
+        "gpaConvSum": 20.07,
+        "gpaConvAvg": 4.01,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actEnglish": {
+            "25": 35.25,
+            "75": 35.75
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 33.75,
+            "75": 35.25
+          },
+          "actWriting": {
+            "25": 14.75,
+            "75": 24.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1520,
+            "75": 1520
+          },
+          "satMath": {
+            "25": 730,
+            "75": 730
+          },
+          "satReadingWriting": {
+            "25": 790,
+            "75": 790
+          }
+        },
+        "gpa": {
+          "25": 4.1125,
+          "75": 4.220000000000001
+        },
+        "weightedGpa": {
+          "25": 4.1125,
+          "75": 4.220000000000001
+        },
+        "gpaConverted": {
+          "25": 4.1125,
+          "75": 4.220000000000001
+        },
+        "weightedGpaConverted": {
+          "25": 4.1125,
+          "75": 4.220000000000001
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 34,
+            "75": 34
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 33,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 29,
+            "75": 29
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1520,
+            "75": 1520
+          },
+          "satMath": {
+            "25": 730,
+            "75": 730
+          },
+          "satReadingWriting": {
+            "25": 790,
+            "75": 790
+          }
+        },
+        "gpa": {
+          "25": 4.140000000000001,
+          "75": 4.18
+        },
+        "weightedGpa": {
+          "25": 4.140000000000001,
+          "75": 4.18
+        },
+        "gpaConverted": {
+          "25": 4.140000000000001,
+          "75": 4.18
+        },
+        "weightedGpaConverted": {
+          "25": 4.140000000000001,
+          "75": 4.18
+        }
+      }
+    }
+  }
+}

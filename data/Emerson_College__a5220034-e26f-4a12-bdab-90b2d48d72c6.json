@@ -1,0 +1,144 @@
+{
+  "name": "Emerson College",
+  "uuid": "a5220034-e26f-4a12-bdab-90b2d48d72c6",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 14,
+        "gpaSum": 52.32,
+        "gpaAvg": 3.74,
+        "gpaConvSum": 52.32,
+        "gpaConvAvg": 3.74,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 14,
+        "gpaSum": 52.32,
+        "gpaAvg": 3.74,
+        "gpaConvSum": 52.32,
+        "gpaConvAvg": 3.74,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 28,
+            "75": 35
+          },
+          "actMath": {
+            "25": 26.5,
+            "75": 28
+          },
+          "actReading": {
+            "25": 28.5,
+            "75": 34
+          },
+          "actScience": {
+            "25": 24.5,
+            "75": 31.5
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 21
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1227.5,
+            "75": 1392.5
+          },
+          "satMath": {
+            "25": 572.5,
+            "75": 687.5
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 727.5
+          }
+        },
+        "gpa": {
+          "25": 3.56,
+          "75": 3.965
+        },
+        "weightedGpa": {
+          "25": 3.56,
+          "75": 3.965
+        },
+        "gpaConverted": {
+          "25": 3.56,
+          "75": 3.965
+        },
+        "weightedGpaConverted": {
+          "25": 3.56,
+          "75": 3.965
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35
+          },
+          "actMath": {
+            "25": 27,
+            "75": 27
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 30,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1230,
+            "75": 1350
+          },
+          "satMath": {
+            "25": 592.5,
+            "75": 617.5
+          },
+          "satReadingWriting": {
+            "25": 625,
+            "75": 695
+          }
+        },
+        "gpa": {
+          "25": 3.7125,
+          "75": 3.9625
+        },
+        "weightedGpa": {
+          "25": 3.7125,
+          "75": 3.9625
+        },
+        "gpaConverted": {
+          "25": 3.7125,
+          "75": 3.9625
+        },
+        "weightedGpaConverted": {
+          "25": 3.7125,
+          "75": 3.9625
+        }
+      }
+    }
+  }
+}

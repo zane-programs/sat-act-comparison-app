@@ -1,0 +1,59 @@
+{
+  "name": "Clemson University",
+  "uuid": "fc5be436-9952-4a6b-b959-b7e132a37c40",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.66,
+          "75": 3.66
+        },
+        "weightedGpa": {
+          "25": 3.66,
+          "75": 3.66
+        },
+        "gpaConverted": {
+          "25": 3.66,
+          "75": 3.66
+        },
+        "weightedGpaConverted": {
+          "25": 3.66,
+          "75": 3.66
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Lehigh University",
+  "uuid": "935a55da-4191-4e29-aeff-ee7161619152",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 5,
+        "gpaSum": 19.45,
+        "gpaAvg": 3.89,
+        "gpaConvSum": 19.45,
+        "gpaConvAvg": 3.89,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 5,
+        "gpaSum": 19.45,
+        "gpaAvg": 3.89,
+        "gpaConvSum": 19.45,
+        "gpaConvAvg": 3.89,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 31
+          },
+          "actEnglish": {
+            "25": 32.75,
+            "75": 34
+          },
+          "actMath": {
+            "25": 28.75,
+            "75": 32.25
+          },
+          "actReading": {
+            "25": 29.5,
+            "75": 31.75
+          },
+          "actScience": {
+            "25": 28,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 8.25,
+            "75": 19.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1380,
+            "75": 1420
+          },
+          "satMath": {
+            "25": 740,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 677.5,
+            "75": 692.5
+          }
+        },
+        "gpa": {
+          "25": 3.69,
+          "75": 4.2
+        },
+        "weightedGpa": {
+          "25": 3.69,
+          "75": 4.2
+        },
+        "gpaConverted": {
+          "25": 3.69,
+          "75": 4.2
+        },
+        "weightedGpaConverted": {
+          "25": 3.69,
+          "75": 4.2
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 30.5,
+            "75": 31
+          },
+          "actEnglish": {
+            "25": 32.5,
+            "75": 33.5
+          },
+          "actMath": {
+            "25": 30.5,
+            "75": 32.5
+          },
+          "actReading": {
+            "25": 29,
+            "75": 30.5
+          },
+          "actScience": {
+            "25": 29,
+            "75": 31
+          },
+          "actWriting": {
+            "25": 12,
+            "75": 20.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1360,
+            "75": 1360
+          },
+          "satMath": {
+            "25": 740,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 670,
+            "75": 670
+          }
+        },
+        "gpa": {
+          "25": 3.685,
+          "75": 3.84
+        },
+        "weightedGpa": {
+          "25": 3.685,
+          "75": 3.84
+        },
+        "gpaConverted": {
+          "25": 3.685,
+          "75": 3.84
+        },
+        "weightedGpaConverted": {
+          "25": 3.685,
+          "75": 3.84
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "DePaul University",
+  "uuid": "d365966f-b57a-4d99-8e45-4c691a41ae40",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 6,
+        "gpaSum": 21.19,
+        "gpaAvg": 3.53,
+        "gpaConvSum": 21.19,
+        "gpaConvAvg": 3.53,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 6,
+        "gpaSum": 21.19,
+        "gpaAvg": 3.53,
+        "gpaConvSum": 21.19,
+        "gpaConvAvg": 3.53,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 24.5,
+            "75": 25.25
+          },
+          "actEnglish": {
+            "25": 27.25,
+            "75": 29
+          },
+          "actMath": {
+            "25": 23,
+            "75": 24.5
+          },
+          "actReading": {
+            "25": 24.75,
+            "75": 28.75
+          },
+          "actScience": {
+            "25": 22.25,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 8.75,
+            "75": 20
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1420,
+            "75": 1420
+          },
+          "satMath": {
+            "25": 770,
+            "75": 770
+          },
+          "satReadingWriting": {
+            "25": 670,
+            "75": 670
+          }
+        },
+        "gpa": {
+          "25": 3.5525,
+          "75": 3.6799999999999997
+        },
+        "weightedGpa": {
+          "25": 3.5525,
+          "75": 3.6799999999999997
+        },
+        "gpaConverted": {
+          "25": 3.5525,
+          "75": 3.6799999999999997
+        },
+        "weightedGpaConverted": {
+          "25": 3.5525,
+          "75": 3.6799999999999997
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

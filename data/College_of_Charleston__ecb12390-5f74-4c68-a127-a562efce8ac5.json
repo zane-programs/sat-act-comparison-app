@@ -1,0 +1,116 @@
+{
+  "name": "College of Charleston",
+  "uuid": "ecb12390-5f74-4c68-a127-a562efce8ac5",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 24.75,
+            "75": 28.25
+          },
+          "actEnglish": {
+            "25": 27.75,
+            "75": 31.25
+          },
+          "actMath": {
+            "25": 24.5,
+            "75": 25.5
+          },
+          "actReading": {
+            "25": 24.25,
+            "75": 28.75
+          },
+          "actScience": {
+            "25": 23.25,
+            "75": 27.75
+          },
+          "actWriting": {
+            "25": 10,
+            "75": 20
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1240,
+            "75": 1260
+          },
+          "satMath": {
+            "25": 605,
+            "75": 615
+          },
+          "satReadingWriting": {
+            "25": 652.5,
+            "75": 657.5
+          }
+        },
+        "gpa": {
+          "25": 3.1799999999999997,
+          "75": 3.4175
+        },
+        "weightedGpa": {
+          "25": 3.1799999999999997,
+          "75": 3.4175
+        },
+        "gpaConverted": {
+          "25": 3.1799999999999997,
+          "75": 3.4175
+        },
+        "weightedGpaConverted": {
+          "25": 3.1799999999999997,
+          "75": 3.4175
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 23,
+            "75": 23
+          },
+          "actEnglish": {
+            "25": 26,
+            "75": 26
+          },
+          "actMath": {
+            "25": 24,
+            "75": 24
+          },
+          "actReading": {
+            "25": 22,
+            "75": 22
+          },
+          "actScience": {
+            "25": 21,
+            "75": 21
+          },
+          "actWriting": {
+            "25": 25,
+            "75": 25
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.19,
+          "75": 3.19
+        },
+        "weightedGpa": {
+          "25": 3.19,
+          "75": 3.19
+        },
+        "gpaConverted": {
+          "25": 3.19,
+          "75": 3.19
+        },
+        "weightedGpaConverted": {
+          "25": 3.19,
+          "75": 3.19
+        }
+      }
+    }
+  }
+}

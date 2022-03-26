@@ -1,0 +1,78 @@
+{
+  "name": "Michigan State University",
+  "uuid": "ea964521-740b-48ff-a81c-66529452f522",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.86,
+        "gpaAvg": 3.72,
+        "gpaConvSum": 14.86,
+        "gpaConvAvg": 3.72,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.86,
+        "gpaAvg": 3.72,
+        "gpaConvSum": 14.86,
+        "gpaConvAvg": 3.72,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.7,
+          "75": 3.9749999999999996
+        },
+        "weightedGpa": {
+          "25": 3.7,
+          "75": 3.9749999999999996
+        },
+        "gpaConverted": {
+          "25": 3.7,
+          "75": 3.9749999999999996
+        },
+        "weightedGpaConverted": {
+          "25": 3.7,
+          "75": 3.9749999999999996
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

@@ -4,11 +4,11 @@
   "data": {
     "scattergrams": {
       "gpa": {
-        "gpaCount": 29,
-        "gpaSum": 122.14,
-        "gpaAvg": 4.21,
-        "gpaConvSum": 122.1,
-        "gpaConvAvg": 4.21,
+        "gpaCount": 28,
+        "gpaSum": 118.07,
+        "gpaAvg": 4.22,
+        "gpaConvSum": 118.03,
+        "gpaConvAvg": 4.22,
         "act": {
           "count": 5,
           "sum": 177,
@@ -247,11 +247,11 @@
         }
       },
       "weightedGpa": {
-        "gpaCount": 29,
-        "gpaSum": 122.14,
-        "gpaAvg": 4.21,
-        "gpaConvSum": 122.1,
-        "gpaConvAvg": 4.21,
+        "gpaCount": 28,
+        "gpaSum": 118.07,
+        "gpaAvg": 4.22,
+        "gpaConvSum": 118.03,
+        "gpaConvAvg": 4.22,
         "act": {
           "count": 5,
           "sum": 177,
@@ -552,15 +552,15 @@
       "enrolled": {
         "act": {
           "actComposite": {
-            "25": 35,
+            "25": 34.75,
             "75": 36
           },
           "actEnglish": {
-            "25": 35.5,
+            "25": 35,
             "75": 36
           },
           "actMath": {
-            "25": 32,
+            "25": 33.5,
             "75": 35
           },
           "actReading": {
@@ -568,22 +568,22 @@
             "75": 36
           },
           "actScience": {
-            "25": 35.5,
+            "25": 34.5,
             "75": 36
           },
           "actWriting": {
-            "25": 9,
+            "25": 6,
             "75": 10
           }
         },
         "sat": {
           "satTotal": {
-            "25": 1535,
-            "75": 1545
+            "25": 1525,
+            "75": 1540
           },
           "satMath": {
-            "25": 777.5,
-            "75": 792.5
+            "25": 760,
+            "75": 785
           },
           "satReadingWriting": {
             "25": 765,
@@ -591,20 +591,20 @@
           }
         },
         "gpa": {
-          "25": 4.19,
-          "75": 4.25
+          "25": 4.215,
+          "75": 4.29
         },
         "weightedGpa": {
-          "25": 4.19,
-          "75": 4.25
+          "25": 4.215,
+          "75": 4.29
         },
         "gpaConverted": {
-          "25": 4.19,
-          "75": 4.25
+          "25": 4.215,
+          "75": 4.295
         },
         "weightedGpaConverted": {
-          "25": 4.19,
-          "75": 4.25
+          "25": 4.215,
+          "75": 4.295
         }
       }
     }

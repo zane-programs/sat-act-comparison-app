@@ -1,0 +1,107 @@
+{
+  "name": "San Jose State University",
+  "uuid": "707dad8f-3d03-4197-ac9b-ecd6e76c6e85",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 27
+          },
+          "actEnglish": {
+            "25": 33,
+            "75": 33
+          },
+          "actMath": {
+            "25": 26,
+            "75": 26
+          },
+          "actReading": {
+            "25": 26,
+            "75": 26
+          },
+          "actScience": {
+            "25": 25,
+            "75": 25
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 7
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1227.5,
+            "75": 1242.5
+          },
+          "satMath": {
+            "25": 625,
+            "75": 635
+          },
+          "satReadingWriting": {
+            "25": 602.5,
+            "75": 627.5
+          }
+        },
+        "gpa": {
+          "25": 3.1500000000000004,
+          "75": 3.6900000000000004
+        },
+        "weightedGpa": {
+          "25": 3.1500000000000004,
+          "75": 3.6900000000000004
+        },
+        "gpaConverted": {
+          "25": 3.1500000000000004,
+          "75": 3.6900000000000004
+        },
+        "weightedGpaConverted": {
+          "25": 3.1500000000000004,
+          "75": 3.6900000000000004
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1220,
+            "75": 1220
+          },
+          "satMath": {
+            "25": 640,
+            "75": 640
+          },
+          "satReadingWriting": {
+            "25": 590,
+            "75": 590
+          }
+        },
+        "gpa": {
+          "25": 3.05,
+          "75": 3.1500000000000004
+        },
+        "weightedGpa": {
+          "25": 3.05,
+          "75": 3.1500000000000004
+        },
+        "gpaConverted": {
+          "25": 3.05,
+          "75": 3.1500000000000004
+        },
+        "weightedGpaConverted": {
+          "25": 3.05,
+          "75": 3.1500000000000004
+        }
+      }
+    }
+  }
+}

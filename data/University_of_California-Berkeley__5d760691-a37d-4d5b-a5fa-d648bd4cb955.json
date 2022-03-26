@@ -352,6 +352,24 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 4.12
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 25,
+                "actCompositeStudent": 25,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.85
               }
             ],
             "acceptedRD": [
@@ -730,6 +748,33 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.97
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.33
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1500,
+                "studentSAT1600Composite": 1500,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1380,
+                "studentSAT1600Composite": 1380,
+                "gpa": 3.83
               }
             ],
             "waitlistedUnknownRD": [
@@ -1234,6 +1279,24 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 4.12
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 25,
+                "actCompositeStudent": 25,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.85
               }
             ],
             "acceptedRD": [
@@ -1612,6 +1675,33 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.97
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.33
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1500,
+                "studentSAT1600Composite": 1500,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1380,
+                "studentSAT1600Composite": 1380,
+                "gpa": 3.83
               }
             ],
             "waitlistedUnknownRD": [
@@ -1811,19 +1901,19 @@
           }
         },
         "gpa": {
-          "25": 4.0875,
-          "75": 4.3025
+          "25": 4.08,
+          "75": 4.3
         },
         "weightedGpa": {
-          "25": 4.0875,
-          "75": 4.3025
+          "25": 4.08,
+          "75": 4.3
         },
         "gpaConverted": {
-          "25": 4.0875,
+          "25": 4.08,
           "75": 4.3
         },
         "weightedGpaConverted": {
-          "25": 4.0875,
+          "25": 4.08,
           "75": 4.3
         }
       },

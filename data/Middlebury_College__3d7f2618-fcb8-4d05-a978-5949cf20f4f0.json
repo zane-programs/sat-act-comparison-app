@@ -1,0 +1,126 @@
+{
+  "name": "Middlebury College",
+  "uuid": "3d7f2618-fcb8-4d05-a978-5949cf20f4f0",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 22,
+        "gpaSum": 89.48,
+        "gpaAvg": 4.07,
+        "gpaConvSum": 89.46,
+        "gpaConvAvg": 4.07,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 22,
+        "gpaSum": 89.48,
+        "gpaAvg": 4.07,
+        "gpaConvSum": 89.46,
+        "gpaConvAvg": 4.07,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 33.25,
+            "75": 33.75
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35
+          },
+          "actMath": {
+            "25": 34,
+            "75": 34
+          },
+          "actReading": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 33.25,
+            "75": 33.75
+          },
+          "actWriting": {
+            "25": 26.25,
+            "75": 32.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1500,
+            "75": 1535
+          },
+          "satMath": {
+            "25": 775,
+            "75": 790
+          },
+          "satReadingWriting": {
+            "25": 755,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 3.85,
+          "75": 4.31
+        },
+        "weightedGpa": {
+          "25": 3.85,
+          "75": 4.31
+        },
+        "gpaConverted": {
+          "25": 3.85,
+          "75": 4.3
+        },
+        "weightedGpaConverted": {
+          "25": 3.85,
+          "75": 4.3
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1530,
+            "75": 1530
+          },
+          "satMath": {
+            "25": 760,
+            "75": 760
+          },
+          "satReadingWriting": {
+            "25": 780,
+            "75": 780
+          }
+        },
+        "gpa": {
+          "25": 4.31,
+          "75": 4.31
+        },
+        "weightedGpa": {
+          "25": 4.31,
+          "75": 4.31
+        },
+        "gpaConverted": {
+          "25": 4.3,
+          "75": 4.3
+        },
+        "weightedGpaConverted": {
+          "25": 4.3,
+          "75": 4.3
+        }
+      }
+    }
+  }
+}

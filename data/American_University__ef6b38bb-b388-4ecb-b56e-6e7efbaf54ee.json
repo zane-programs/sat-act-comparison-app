@@ -1,0 +1,135 @@
+{
+  "name": "American University",
+  "uuid": "ef6b38bb-b388-4ecb-b56e-6e7efbaf54ee",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 14,
+        "gpaSum": 55.14,
+        "gpaAvg": 3.94,
+        "gpaConvSum": 55.14,
+        "gpaConvAvg": 3.94,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 14,
+        "gpaSum": 55.14,
+        "gpaAvg": 3.94,
+        "gpaConvSum": 55.14,
+        "gpaConvAvg": 3.94,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 29,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 30.75,
+            "75": 34.25
+          },
+          "actMath": {
+            "25": 25.75,
+            "75": 30
+          },
+          "actReading": {
+            "25": 29.75,
+            "75": 33.25
+          },
+          "actScience": {
+            "25": 25.75,
+            "75": 28
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 20.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1310,
+            "75": 1380
+          },
+          "satMath": {
+            "25": 630,
+            "75": 710
+          },
+          "satReadingWriting": {
+            "25": 650,
+            "75": 710
+          }
+        },
+        "gpa": {
+          "25": 3.51,
+          "75": 3.865
+        },
+        "weightedGpa": {
+          "25": 3.51,
+          "75": 3.865
+        },
+        "gpaConverted": {
+          "25": 3.51,
+          "75": 3.865
+        },
+        "weightedGpaConverted": {
+          "25": 3.51,
+          "75": 3.865
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 29
+          },
+          "actMath": {
+            "25": 27,
+            "75": 27
+          },
+          "actReading": {
+            "25": 34,
+            "75": 34
+          },
+          "actScience": {
+            "25": 28,
+            "75": 28
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.725,
+          "75": 3.835
+        },
+        "weightedGpa": {
+          "25": 3.725,
+          "75": 3.835
+        },
+        "gpaConverted": {
+          "25": 3.725,
+          "75": 3.835
+        },
+        "weightedGpaConverted": {
+          "25": 3.725,
+          "75": 3.835
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Carleton College",
+  "uuid": "83e1eddd-1977-4876-b70c-e4a78f12f4a2",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 5,
+        "gpaSum": 20.08,
+        "gpaAvg": 4.02,
+        "gpaConvSum": 20.1,
+        "gpaConvAvg": 4.02,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 5,
+        "gpaSum": 20.08,
+        "gpaAvg": 4.02,
+        "gpaConvSum": 20.1,
+        "gpaConvAvg": 4.02,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 31,
+            "75": 33
+          },
+          "actEnglish": {
+            "25": 33.5,
+            "75": 34.5
+          },
+          "actMath": {
+            "25": 29,
+            "75": 31
+          },
+          "actReading": {
+            "25": 31.5,
+            "75": 34.5
+          },
+          "actScience": {
+            "25": 31.5,
+            "75": 32.5
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 17.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1427.5,
+            "75": 1525
+          },
+          "satMath": {
+            "25": 730,
+            "75": 767.5
+          },
+          "satReadingWriting": {
+            "25": 720,
+            "75": 762.5
+          }
+        },
+        "gpa": {
+          "25": 4.1075,
+          "75": 4.3325
+        },
+        "weightedGpa": {
+          "25": 4.1075,
+          "75": 4.3325
+        },
+        "gpaConverted": {
+          "25": 4.1075,
+          "75": 4.3325
+        },
+        "weightedGpaConverted": {
+          "25": 4.1075,
+          "75": 4.3325
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1452.5,
+            "75": 1497.5
+          },
+          "satMath": {
+            "25": 710,
+            "75": 730
+          },
+          "satReadingWriting": {
+            "25": 740,
+            "75": 760
+          }
+        },
+        "gpa": {
+          "25": 4.15,
+          "75": 4.31
+        },
+        "weightedGpa": {
+          "25": 4.15,
+          "75": 4.31
+        },
+        "gpaConverted": {
+          "25": 4.15,
+          "75": 4.31
+        },
+        "weightedGpaConverted": {
+          "25": 4.15,
+          "75": 4.31
+        }
+      }
+    }
+  }
+}

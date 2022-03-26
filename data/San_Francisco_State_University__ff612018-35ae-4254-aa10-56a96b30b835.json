@@ -1,0 +1,96 @@
+{
+  "name": "San Francisco State University",
+  "uuid": "ff612018-35ae-4254-aa10-56a96b30b835",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 13.16,
+        "gpaAvg": 3.29,
+        "gpaConvSum": 13.16,
+        "gpaConvAvg": 3.29,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 13.16,
+        "gpaAvg": 3.29,
+        "gpaConvSum": 13.16,
+        "gpaConvAvg": 3.29,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 25,
+            "75": 25
+          },
+          "actMath": {
+            "25": 29,
+            "75": 29
+          },
+          "actReading": {
+            "25": 33,
+            "75": 33
+          },
+          "actScience": {
+            "25": 33,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 0,
+            "75": 0
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 2.9825,
+          "75": 3.085
+        },
+        "weightedGpa": {
+          "25": 2.9825,
+          "75": 3.085
+        },
+        "gpaConverted": {
+          "25": 2.9825,
+          "75": 3.085
+        },
+        "weightedGpaConverted": {
+          "25": 2.9825,
+          "75": 3.085
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

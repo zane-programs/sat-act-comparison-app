@@ -10,13 +10,13 @@
         "gpaConvSum": 574.22,
         "gpaConvAvg": 3.99,
         "act": {
-          "count": 24,
-          "sum": 763,
-          "avg": 31.79,
-          "gpaCount": 24,
-          "gpaSum": 97.69,
+          "count": 26,
+          "sum": 815,
+          "avg": 31.35,
+          "gpaCount": 26,
+          "gpaSum": 105.9,
           "gpaAvg": 4.07,
-          "gpaConvSum": 97.67,
+          "gpaConvSum": 105.88,
           "gpaConvAvg": 4.07,
           "apps": {
             "acceptedEA": [
@@ -189,6 +189,15 @@
                 "actCompositeStudent": 25,
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 25,
+                "actCompositeStudent": 25,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
                 "gpa": 3.83
               },
               {
@@ -208,6 +217,15 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.9
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 27,
+                "actCompositeStudent": 27,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.15
               },
               {
                 "currentStudent": false,
@@ -336,6 +354,33 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.73
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 28,
+                "actCompositeStudent": 28,
+                "highestComboSat": 1180,
+                "studentSAT1600Composite": 1180,
+                "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.67
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.85
               }
             ],
             "waitlistedUnknownEA": [
@@ -437,6 +482,33 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 4.27
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 29,
+                "actCompositeStudent": 29,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.17
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 30,
+                "actCompositeStudent": 30,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 35,
+                "actCompositeStudent": 35,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.96
               }
             ],
             "deniedRD": [
@@ -466,6 +538,15 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 32,
+                "actCompositeStudent": 32,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.33
               }
             ],
             "waitlistedAcceptedEA": [
@@ -722,6 +803,60 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.84
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.23
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1360,
+                "studentSAT1600Composite": 1360,
+                "gpa": 4.27
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1540,
+                "studentSAT1600Composite": 1530,
+                "gpa": 4.26
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1570,
+                "studentSAT1600Composite": 1570,
+                "gpa": 4.31
+              },
+              {
+                "currentStudent": true,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1560,
+                "studentSAT1600Composite": 1560,
+                "gpa": 4.33
               }
             ],
             "deniedEA": [
@@ -814,6 +949,42 @@
                 "highestComboSat": 1450,
                 "studentSAT1600Composite": 1450,
                 "gpa": 3.72
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1230,
+                "studentSAT1600Composite": 1230,
+                "gpa": 3.99
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 28,
+                "actCompositeStudent": 28,
+                "highestComboSat": 1180,
+                "studentSAT1600Composite": 1180,
+                "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1500,
+                "studentSAT1600Composite": 1500,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1250,
+                "studentSAT1600Composite": 1220,
+                "gpa": 3.78
               }
             ],
             "deniedRD": [
@@ -863,6 +1034,15 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.97
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1570,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.3
               }
             ]
           }
@@ -875,13 +1055,13 @@
         "gpaConvSum": 574.22,
         "gpaConvAvg": 3.99,
         "act": {
-          "count": 24,
-          "sum": 763,
-          "avg": 31.79,
-          "gpaCount": 24,
-          "gpaSum": 97.69,
+          "count": 26,
+          "sum": 815,
+          "avg": 31.35,
+          "gpaCount": 26,
+          "gpaSum": 105.9,
           "gpaAvg": 4.07,
-          "gpaConvSum": 97.67,
+          "gpaConvSum": 105.88,
           "gpaConvAvg": 4.07,
           "apps": {
             "acceptedEA": [
@@ -1054,6 +1234,15 @@
                 "actCompositeStudent": 25,
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 25,
+                "actCompositeStudent": 25,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
                 "gpa": 3.83
               },
               {
@@ -1073,6 +1262,15 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.9
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 27,
+                "actCompositeStudent": 27,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.15
               },
               {
                 "currentStudent": false,
@@ -1201,6 +1399,33 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.73
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 28,
+                "actCompositeStudent": 28,
+                "highestComboSat": 1180,
+                "studentSAT1600Composite": 1180,
+                "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.67
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 31,
+                "actCompositeStudent": 31,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.85
               }
             ],
             "waitlistedUnknownEA": [
@@ -1302,6 +1527,33 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 4.27
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 29,
+                "actCompositeStudent": 29,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.17
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 30,
+                "actCompositeStudent": 30,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 4.06
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 35,
+                "actCompositeStudent": 35,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.96
               }
             ],
             "deniedRD": [
@@ -1331,6 +1583,15 @@
                 "highestComboSat": 0,
                 "studentSAT1600Composite": 0,
                 "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 32,
+                "actCompositeStudent": 32,
+                "highestComboSat": 0,
+                "studentSAT1600Composite": 0,
+                "gpa": 3.33
               }
             ],
             "waitlistedAcceptedEA": [
@@ -1587,6 +1848,60 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.84
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.23
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1520,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1360,
+                "studentSAT1600Composite": 1360,
+                "gpa": 4.27
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1540,
+                "studentSAT1600Composite": 1530,
+                "gpa": 4.26
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1570,
+                "studentSAT1600Composite": 1570,
+                "gpa": 4.31
+              },
+              {
+                "currentStudent": true,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1560,
+                "studentSAT1600Composite": 1560,
+                "gpa": 4.33
               }
             ],
             "deniedEA": [
@@ -1679,6 +1994,42 @@
                 "highestComboSat": 1450,
                 "studentSAT1600Composite": 1450,
                 "gpa": 3.72
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1230,
+                "studentSAT1600Composite": 1230,
+                "gpa": 3.99
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 28,
+                "actCompositeStudent": 28,
+                "highestComboSat": 1180,
+                "studentSAT1600Composite": 1180,
+                "gpa": 3.68
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1500,
+                "studentSAT1600Composite": 1500,
+                "gpa": 4.21
+              },
+              {
+                "currentStudent": false,
+                "typeName": "EA",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1250,
+                "studentSAT1600Composite": 1220,
+                "gpa": 3.78
               }
             ],
             "deniedRD": [
@@ -1728,6 +2079,15 @@
                 "highestComboSat": 1390,
                 "studentSAT1600Composite": 1390,
                 "gpa": 3.97
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1570,
+                "studentSAT1600Composite": 1520,
+                "gpa": 4.3
               }
             ]
           }
@@ -1742,19 +2102,19 @@
             "75": 34
           },
           "actEnglish": {
-            "25": 33,
+            "25": 31.5,
             "75": 35
           },
           "actMath": {
             "25": 28,
-            "75": 34
+            "75": 33.5
           },
           "actReading": {
-            "25": 31,
+            "25": 30.5,
             "75": 35
           },
           "actScience": {
-            "25": 27,
+            "25": 26.5,
             "75": 34
           },
           "actWriting": {
@@ -1777,20 +2137,20 @@
           }
         },
         "gpa": {
-          "25": 3.8975,
-          "75": 4.195
+          "25": 3.9025,
+          "75": 4.19
         },
         "weightedGpa": {
-          "25": 3.8975,
-          "75": 4.195
+          "25": 3.9025,
+          "75": 4.19
         },
         "gpaConverted": {
-          "25": 3.8975,
-          "75": 4.195
+          "25": 3.9025,
+          "75": 4.19
         },
         "weightedGpaConverted": {
-          "25": 3.8975,
-          "75": 4.195
+          "25": 3.9025,
+          "75": 4.19
         }
       },
       "enrolled": {
@@ -1804,20 +2164,20 @@
             "75": 35
           },
           "actMath": {
-            "25": 27,
+            "25": 26.25,
             "75": 32
           },
           "actReading": {
-            "25": 29,
+            "25": 28.25,
             "75": 35
           },
           "actScience": {
             "25": 25,
-            "75": 32
+            "75": 31.75
           },
           "actWriting": {
             "25": 8,
-            "75": 19
+            "75": 17.5
           }
         },
         "sat": {
@@ -1835,19 +2195,19 @@
           }
         },
         "gpa": {
-          "25": 3.795,
+          "25": 3.8025,
           "75": 4.12
         },
         "weightedGpa": {
-          "25": 3.795,
+          "25": 3.8025,
           "75": 4.12
         },
         "gpaConverted": {
-          "25": 3.795,
+          "25": 3.8025,
           "75": 4.12
         },
         "weightedGpaConverted": {
-          "25": 3.795,
+          "25": 3.8025,
           "75": 4.12
         }
       }

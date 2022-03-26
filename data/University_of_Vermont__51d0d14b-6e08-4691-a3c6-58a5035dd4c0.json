@@ -1,0 +1,105 @@
+{
+  "name": "University of Vermont",
+  "uuid": "51d0d14b-6e08-4691-a3c6-58a5035dd4c0",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 9,
+        "gpaSum": 36.51,
+        "gpaAvg": 4.06,
+        "gpaConvSum": 36.51,
+        "gpaConvAvg": 4.06,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 9,
+        "gpaSum": 36.51,
+        "gpaAvg": 4.06,
+        "gpaConvSum": 36.51,
+        "gpaConvAvg": 4.06,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 29.5
+          },
+          "actEnglish": {
+            "25": 25.75,
+            "75": 34.25
+          },
+          "actMath": {
+            "25": 25.25,
+            "75": 28.75
+          },
+          "actReading": {
+            "25": 29.5,
+            "75": 33
+          },
+          "actScience": {
+            "25": 24,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 9.25,
+            "75": 14.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1345,
+            "75": 1432.5
+          },
+          "satMath": {
+            "25": 630,
+            "75": 707.5
+          },
+          "satReadingWriting": {
+            "25": 710,
+            "75": 735
+          }
+        },
+        "gpa": {
+          "25": 3.6950000000000003,
+          "75": 4.2524999999999995
+        },
+        "weightedGpa": {
+          "25": 3.6950000000000003,
+          "75": 4.2524999999999995
+        },
+        "gpaConverted": {
+          "25": 3.6950000000000003,
+          "75": 4.2524999999999995
+        },
+        "weightedGpaConverted": {
+          "25": 3.6950000000000003,
+          "75": 4.2524999999999995
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

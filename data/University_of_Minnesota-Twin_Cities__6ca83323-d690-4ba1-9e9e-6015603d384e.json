@@ -1,0 +1,105 @@
+{
+  "name": "University of Minnesota-Twin Cities",
+  "uuid": "6ca83323-d690-4ba1-9e9e-6015603d384e",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.99,
+        "gpaAvg": 3.75,
+        "gpaConvSum": 15,
+        "gpaConvAvg": 3.75,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.99,
+        "gpaAvg": 3.75,
+        "gpaConvSum": 15,
+        "gpaConvAvg": 3.75,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 26
+          },
+          "actEnglish": {
+            "25": 25,
+            "75": 25
+          },
+          "actMath": {
+            "25": 26,
+            "75": 26
+          },
+          "actReading": {
+            "25": 30,
+            "75": 30
+          },
+          "actScience": {
+            "25": 24,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 7
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1240,
+            "75": 1395
+          },
+          "satMath": {
+            "25": 600,
+            "75": 710
+          },
+          "satReadingWriting": {
+            "25": 650,
+            "75": 725
+          }
+        },
+        "gpa": {
+          "25": 3.5575,
+          "75": 3.79
+        },
+        "weightedGpa": {
+          "25": 3.5575,
+          "75": 3.79
+        },
+        "gpaConverted": {
+          "25": 3.5575,
+          "75": 3.7925
+        },
+        "weightedGpaConverted": {
+          "25": 3.5575,
+          "75": 3.7925
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

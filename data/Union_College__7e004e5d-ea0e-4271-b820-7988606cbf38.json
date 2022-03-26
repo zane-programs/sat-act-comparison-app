@@ -1,0 +1,89 @@
+{
+  "name": "Union College",
+  "uuid": "7e004e5d-ea0e-4271-b820-7988606cbf38",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26,
+            "75": 26
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 29
+          },
+          "actMath": {
+            "25": 24,
+            "75": 24
+          },
+          "actReading": {
+            "25": 28,
+            "75": 28
+          },
+          "actScience": {
+            "25": 24,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 26,
+            "75": 26
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.3550000000000004,
+          "75": 3.675
+        },
+        "weightedGpa": {
+          "25": 3.3550000000000004,
+          "75": 3.675
+        },
+        "gpaConverted": {
+          "25": 3.3550000000000004,
+          "75": 3.675
+        },
+        "weightedGpaConverted": {
+          "25": 3.3550000000000004,
+          "75": 3.675
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.47,
+          "75": 3.47
+        },
+        "weightedGpa": {
+          "25": 3.47,
+          "75": 3.47
+        },
+        "gpaConverted": {
+          "25": 3.47,
+          "75": 3.47
+        },
+        "weightedGpaConverted": {
+          "25": 3.47,
+          "75": 3.47
+        }
+      }
+    }
+  }
+}

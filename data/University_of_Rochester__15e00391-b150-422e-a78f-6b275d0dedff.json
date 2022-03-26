@@ -1,0 +1,68 @@
+{
+  "name": "University of Rochester",
+  "uuid": "15e00391-b150-422e-a78f-6b275d0dedff",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1500,
+            "75": 1530
+          },
+          "satMath": {
+            "25": 755,
+            "75": 790
+          },
+          "satReadingWriting": {
+            "25": 750,
+            "75": 780
+          }
+        },
+        "gpa": {
+          "25": 4.0325,
+          "75": 4.21
+        },
+        "weightedGpa": {
+          "25": 4.0325,
+          "75": 4.21
+        },
+        "gpaConverted": {
+          "25": 4.0325,
+          "75": 4.21
+        },
+        "weightedGpaConverted": {
+          "25": 4.0325,
+          "75": 4.21
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

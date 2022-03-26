@@ -1,0 +1,77 @@
+{
+  "name": "Louisiana State University",
+  "uuid": "235ad3b7-e87c-4b44-8b0a-8ab033afb70c",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 28
+          },
+          "actEnglish": {
+            "25": 27,
+            "75": 31
+          },
+          "actMath": {
+            "25": 29,
+            "75": 29
+          },
+          "actReading": {
+            "25": 29,
+            "75": 29
+          },
+          "actScience": {
+            "25": 27,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 11.75,
+            "75": 19.25
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.035,
+          "75": 3.445
+        },
+        "weightedGpa": {
+          "25": 3.035,
+          "75": 3.445
+        },
+        "gpaConverted": {
+          "25": 3.035,
+          "75": 3.445
+        },
+        "weightedGpaConverted": {
+          "25": 3.035,
+          "75": 3.445
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

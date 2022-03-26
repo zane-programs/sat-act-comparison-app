@@ -1,0 +1,77 @@
+{
+  "name": "University of Florida",
+  "uuid": "9d1e279c-bcd5-4df0-8a24-a9a980569f24",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 34,
+            "75": 34
+          },
+          "actEnglish": {
+            "25": 33,
+            "75": 33
+          },
+          "actMath": {
+            "25": 35,
+            "75": 35
+          },
+          "actReading": {
+            "25": 35,
+            "75": 35
+          },
+          "actScience": {
+            "25": 33,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 6,
+            "75": 6
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpa": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "gpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        },
+        "weightedGpaConverted": {
+          "25": 3.9,
+          "75": 3.9
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

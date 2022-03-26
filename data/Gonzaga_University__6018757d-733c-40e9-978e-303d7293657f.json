@@ -1,0 +1,116 @@
+{
+  "name": "Gonzaga University",
+  "uuid": "6018757d-733c-40e9-978e-303d7293657f",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 22,
+            "75": 22
+          },
+          "actEnglish": {
+            "25": 21,
+            "75": 21
+          },
+          "actMath": {
+            "25": 22,
+            "75": 22
+          },
+          "actReading": {
+            "25": 23,
+            "75": 23
+          },
+          "actScience": {
+            "25": 20,
+            "75": 20
+          },
+          "actWriting": {
+            "25": 6,
+            "75": 6
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1305,
+            "75": 1315
+          },
+          "satMath": {
+            "25": 657.5,
+            "75": 732.5
+          },
+          "satReadingWriting": {
+            "25": 637.5,
+            "75": 652.5
+          }
+        },
+        "gpa": {
+          "25": 3.47,
+          "75": 3.68
+        },
+        "weightedGpa": {
+          "25": 3.47,
+          "75": 3.68
+        },
+        "gpaConverted": {
+          "25": 3.47,
+          "75": 3.68
+        },
+        "weightedGpaConverted": {
+          "25": 3.47,
+          "75": 3.68
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 22,
+            "75": 22
+          },
+          "actEnglish": {
+            "25": 21,
+            "75": 21
+          },
+          "actMath": {
+            "25": 22,
+            "75": 22
+          },
+          "actReading": {
+            "25": 23,
+            "75": 23
+          },
+          "actScience": {
+            "25": 20,
+            "75": 20
+          },
+          "actWriting": {
+            "25": 6,
+            "75": 6
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.52,
+          "75": 3.52
+        },
+        "weightedGpa": {
+          "25": 3.52,
+          "75": 3.52
+        },
+        "gpaConverted": {
+          "25": 3.52,
+          "75": 3.52
+        },
+        "weightedGpaConverted": {
+          "25": 3.52,
+          "75": 3.52
+        }
+      }
+    }
+  }
+}

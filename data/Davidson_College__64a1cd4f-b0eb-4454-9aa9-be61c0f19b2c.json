@@ -1,0 +1,116 @@
+{
+  "name": "Davidson College",
+  "uuid": "64a1cd4f-b0eb-4454-9aa9-be61c0f19b2c",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32.5,
+            "75": 33.5
+          },
+          "actEnglish": {
+            "25": 34.5,
+            "75": 35.5
+          },
+          "actMath": {
+            "25": 29.5,
+            "75": 32
+          },
+          "actReading": {
+            "25": 34,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 31.5,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 10.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1392.5,
+            "75": 1497.5
+          },
+          "satMath": {
+            "25": 650,
+            "75": 710
+          },
+          "satReadingWriting": {
+            "25": 740,
+            "75": 780
+          }
+        },
+        "gpa": {
+          "25": 4.075,
+          "75": 4.3175
+        },
+        "weightedGpa": {
+          "25": 4.075,
+          "75": 4.3175
+        },
+        "gpaConverted": {
+          "25": 4.075,
+          "75": 4.31
+        },
+        "weightedGpaConverted": {
+          "25": 4.075,
+          "75": 4.31
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 30,
+            "75": 30
+          },
+          "actReading": {
+            "25": 33,
+            "75": 33
+          },
+          "actScience": {
+            "25": 30,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 7
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.94,
+          "75": 3.94
+        },
+        "weightedGpa": {
+          "25": 3.94,
+          "75": 3.94
+        },
+        "gpaConverted": {
+          "25": 3.94,
+          "75": 3.94
+        },
+        "weightedGpaConverted": {
+          "25": 3.94,
+          "75": 3.94
+        }
+      }
+    }
+  }
+}

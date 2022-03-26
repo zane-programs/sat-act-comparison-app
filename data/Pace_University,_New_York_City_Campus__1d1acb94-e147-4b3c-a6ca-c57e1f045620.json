@@ -1,0 +1,86 @@
+{
+  "name": "Pace University, New York City Campus",
+  "uuid": "1d1acb94-e147-4b3c-a6ca-c57e1f045620",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 28.25,
+            "75": 31.25
+          },
+          "actMath": {
+            "25": 25.25,
+            "75": 27
+          },
+          "actReading": {
+            "25": 29,
+            "75": 31.75
+          },
+          "actScience": {
+            "25": 23.75,
+            "75": 32.25
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 19.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1170,
+            "75": 1252.5
+          },
+          "satMath": {
+            "25": 540,
+            "75": 570
+          },
+          "satReadingWriting": {
+            "25": 627.5,
+            "75": 662.5
+          }
+        },
+        "gpa": {
+          "25": 3.2199999999999998,
+          "75": 3.7350000000000003
+        },
+        "weightedGpa": {
+          "25": 3.2199999999999998,
+          "75": 3.7350000000000003
+        },
+        "gpaConverted": {
+          "25": 3.2199999999999998,
+          "75": 3.7350000000000003
+        },
+        "weightedGpaConverted": {
+          "25": 3.2199999999999998,
+          "75": 3.7350000000000003
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

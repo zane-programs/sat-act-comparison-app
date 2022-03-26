@@ -1,0 +1,126 @@
+{
+  "name": "San Diego State University",
+  "uuid": "ed31ff15-55fa-498e-9b20-c346fde1cb5a",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 8,
+        "gpaSum": 27.93,
+        "gpaAvg": 3.49,
+        "gpaConvSum": 27.93,
+        "gpaConvAvg": 3.49,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 8,
+        "gpaSum": 27.93,
+        "gpaAvg": 3.49,
+        "gpaConvSum": 27.93,
+        "gpaConvAvg": 3.49,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 29
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 33
+          },
+          "actMath": {
+            "25": 27,
+            "75": 29
+          },
+          "actReading": {
+            "25": 27,
+            "75": 29
+          },
+          "actScience": {
+            "25": 26,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 17
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1270,
+            "75": 1270
+          },
+          "satMath": {
+            "25": 640,
+            "75": 640
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 640
+          }
+        },
+        "gpa": {
+          "25": 3.6100000000000003,
+          "75": 3.7725
+        },
+        "weightedGpa": {
+          "25": 3.6100000000000003,
+          "75": 3.7725
+        },
+        "gpaConverted": {
+          "25": 3.6100000000000003,
+          "75": 3.7725
+        },
+        "weightedGpaConverted": {
+          "25": 3.6100000000000003,
+          "75": 3.7725
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1270,
+            "75": 1270
+          },
+          "satMath": {
+            "25": 640,
+            "75": 640
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 640
+          }
+        },
+        "gpa": {
+          "25": 3.34,
+          "75": 3.34
+        },
+        "weightedGpa": {
+          "25": 3.34,
+          "75": 3.34
+        },
+        "gpaConverted": {
+          "25": 3.34,
+          "75": 3.34
+        },
+        "weightedGpaConverted": {
+          "25": 3.34,
+          "75": 3.34
+        }
+      }
+    }
+  }
+}

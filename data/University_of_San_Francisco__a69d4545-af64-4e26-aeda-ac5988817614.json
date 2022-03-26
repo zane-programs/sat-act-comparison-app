@@ -1,0 +1,105 @@
+{
+  "name": "University of San Francisco",
+  "uuid": "a69d4545-af64-4e26-aeda-ac5988817614",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 9,
+        "gpaSum": 32.64,
+        "gpaAvg": 3.63,
+        "gpaConvSum": 32.64,
+        "gpaConvAvg": 3.63,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 9,
+        "gpaSum": 32.64,
+        "gpaAvg": 3.63,
+        "gpaConvSum": 32.64,
+        "gpaConvAvg": 3.63,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27.5,
+            "75": 29.5
+          },
+          "actEnglish": {
+            "25": 27.5,
+            "75": 32.5
+          },
+          "actMath": {
+            "25": 26.5,
+            "75": 31
+          },
+          "actReading": {
+            "25": 25,
+            "75": 32.5
+          },
+          "actScience": {
+            "25": 25.5,
+            "75": 28
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 20.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1200,
+            "75": 1340
+          },
+          "satMath": {
+            "25": 560,
+            "75": 680
+          },
+          "satReadingWriting": {
+            "25": 590,
+            "75": 710
+          }
+        },
+        "gpa": {
+          "25": 3.61,
+          "75": 3.94
+        },
+        "weightedGpa": {
+          "25": 3.61,
+          "75": 3.94
+        },
+        "gpaConverted": {
+          "25": 3.61,
+          "75": 3.94
+        },
+        "weightedGpaConverted": {
+          "25": 3.61,
+          "75": 3.94
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

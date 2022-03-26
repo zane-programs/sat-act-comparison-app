@@ -1,0 +1,105 @@
+{
+  "name": "Macalester College",
+  "uuid": "cd08e2b6-eebf-436c-9fea-83ed6810c6eb",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 6,
+        "gpaSum": 24.23,
+        "gpaAvg": 4.04,
+        "gpaConvSum": 24.23,
+        "gpaConvAvg": 4.04,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 6,
+        "gpaSum": 24.23,
+        "gpaAvg": 4.04,
+        "gpaConvSum": 24.23,
+        "gpaConvAvg": 4.04,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 28
+          },
+          "actEnglish": {
+            "25": 26,
+            "75": 26
+          },
+          "actMath": {
+            "25": 29,
+            "75": 29
+          },
+          "actReading": {
+            "25": 24,
+            "75": 24
+          },
+          "actScience": {
+            "25": 32,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 7,
+            "75": 7
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1387.5,
+            "75": 1402.5
+          },
+          "satMath": {
+            "25": 685,
+            "75": 695
+          },
+          "satReadingWriting": {
+            "25": 702.5,
+            "75": 707.5
+          }
+        },
+        "gpa": {
+          "25": 3.72,
+          "75": 4.19
+        },
+        "weightedGpa": {
+          "25": 3.72,
+          "75": 4.19
+        },
+        "gpaConverted": {
+          "25": 3.72,
+          "75": 4.19
+        },
+        "weightedGpaConverted": {
+          "25": 3.72,
+          "75": 4.19
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

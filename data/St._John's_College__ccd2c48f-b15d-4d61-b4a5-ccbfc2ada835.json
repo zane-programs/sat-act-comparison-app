@@ -1,0 +1,89 @@
+{
+  "name": "St. John's College",
+  "uuid": "ccd2c48f-b15d-4d61-b4a5-ccbfc2ada835",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1290,
+            "75": 1297.5
+          },
+          "satMath": {
+            "25": 570,
+            "75": 582.5
+          },
+          "satReadingWriting": {
+            "25": 682.5,
+            "75": 692.5
+          }
+        },
+        "gpa": {
+          "25": 3.4225,
+          "75": 3.6624999999999996
+        },
+        "weightedGpa": {
+          "25": 3.4225,
+          "75": 3.6624999999999996
+        },
+        "gpaConverted": {
+          "25": 3.4225,
+          "75": 3.6624999999999996
+        },
+        "weightedGpaConverted": {
+          "25": 3.4225,
+          "75": 3.6624999999999996
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1290,
+            "75": 1290
+          },
+          "satMath": {
+            "25": 582.5,
+            "75": 607.5
+          },
+          "satReadingWriting": {
+            "25": 667.5,
+            "75": 682.5
+          }
+        },
+        "gpa": {
+          "25": 3.2075,
+          "75": 3.4225
+        },
+        "weightedGpa": {
+          "25": 3.2075,
+          "75": 3.4225
+        },
+        "gpaConverted": {
+          "25": 3.2075,
+          "75": 3.4225
+        },
+        "weightedGpaConverted": {
+          "25": 3.2075,
+          "75": 3.4225
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Wake Forest University",
+  "uuid": "c0697904-33ae-4136-8b59-e7c620949e06",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 15,
+        "gpaSum": 59.38,
+        "gpaAvg": 3.96,
+        "gpaConvSum": 59.38,
+        "gpaConvAvg": 3.96,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 15,
+        "gpaSum": 59.38,
+        "gpaAvg": 3.96,
+        "gpaConvSum": 59.38,
+        "gpaConvAvg": 3.96,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 27
+          },
+          "actEnglish": {
+            "25": 32.75,
+            "75": 34.25
+          },
+          "actMath": {
+            "25": 26,
+            "75": 26
+          },
+          "actReading": {
+            "25": 28.5,
+            "75": 29.5
+          },
+          "actScience": {
+            "25": 23.25,
+            "75": 23.75
+          },
+          "actWriting": {
+            "25": 8.25,
+            "75": 8.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1220,
+            "75": 1220
+          },
+          "satMath": {
+            "25": 580,
+            "75": 580
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 640
+          }
+        },
+        "gpa": {
+          "25": 3.9925,
+          "75": 3.9975
+        },
+        "weightedGpa": {
+          "25": 3.9925,
+          "75": 3.9975
+        },
+        "gpaConverted": {
+          "25": 3.9925,
+          "75": 3.9975
+        },
+        "weightedGpaConverted": {
+          "25": 3.9925,
+          "75": 3.9975
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 27
+          },
+          "actEnglish": {
+            "25": 32,
+            "75": 32
+          },
+          "actMath": {
+            "25": 26,
+            "75": 26
+          },
+          "actReading": {
+            "25": 28,
+            "75": 28
+          },
+          "actScience": {
+            "25": 24,
+            "75": 24
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 4,
+          "75": 4
+        },
+        "weightedGpa": {
+          "25": 4,
+          "75": 4
+        },
+        "gpaConverted": {
+          "25": 4,
+          "75": 4
+        },
+        "weightedGpaConverted": {
+          "25": 4,
+          "75": 4
+        }
+      }
+    }
+  }
+}

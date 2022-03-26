@@ -1,0 +1,144 @@
+{
+  "name": "Vassar College",
+  "uuid": "0db6f068-642a-4f4f-a2f9-2641154cd267",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 17,
+        "gpaSum": 69.57,
+        "gpaAvg": 4.09,
+        "gpaConvSum": 69.58,
+        "gpaConvAvg": 4.09,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 17,
+        "gpaSum": 69.57,
+        "gpaAvg": 4.09,
+        "gpaConvSum": 69.58,
+        "gpaConvAvg": 4.09,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32.25,
+            "75": 33.75
+          },
+          "actEnglish": {
+            "25": 34.25,
+            "75": 35
+          },
+          "actMath": {
+            "25": 30.75,
+            "75": 33.75
+          },
+          "actReading": {
+            "25": 34,
+            "75": 35
+          },
+          "actScience": {
+            "25": 31.25,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 9.25,
+            "75": 10.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1420,
+            "75": 1490
+          },
+          "satMath": {
+            "25": 710,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 700,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 4.08,
+          "75": 4.24
+        },
+        "weightedGpa": {
+          "25": 4.08,
+          "75": 4.24
+        },
+        "gpaConverted": {
+          "25": 4.08,
+          "75": 4.24
+        },
+        "weightedGpaConverted": {
+          "25": 4.08,
+          "75": 4.24
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 33,
+            "75": 33
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 30,
+            "75": 30
+          },
+          "actReading": {
+            "25": 36,
+            "75": 36
+          },
+          "actScience": {
+            "25": 33,
+            "75": 33
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1445,
+            "75": 1475
+          },
+          "satMath": {
+            "25": 715,
+            "75": 725
+          },
+          "satReadingWriting": {
+            "25": 717.5,
+            "75": 752.5
+          }
+        },
+        "gpa": {
+          "25": 4.1675,
+          "75": 4.245
+        },
+        "weightedGpa": {
+          "25": 4.1675,
+          "75": 4.245
+        },
+        "gpaConverted": {
+          "25": 4.1675,
+          "75": 4.245
+        },
+        "weightedGpaConverted": {
+          "25": 4.1675,
+          "75": 4.245
+        }
+      }
+    }
+  }
+}

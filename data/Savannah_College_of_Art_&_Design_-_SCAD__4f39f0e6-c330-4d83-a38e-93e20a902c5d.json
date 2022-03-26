@@ -1,0 +1,144 @@
+{
+  "name": "Savannah College of Art & Design - SCAD",
+  "uuid": "4f39f0e6-c330-4d83-a38e-93e20a902c5d",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.57,
+        "gpaAvg": 3.64,
+        "gpaConvSum": 14.57,
+        "gpaConvAvg": 3.64,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 14.57,
+        "gpaAvg": 3.64,
+        "gpaConvSum": 14.57,
+        "gpaConvAvg": 3.64,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 23,
+            "75": 28.5
+          },
+          "actEnglish": {
+            "25": 26.5,
+            "75": 32
+          },
+          "actMath": {
+            "25": 20,
+            "75": 24.5
+          },
+          "actReading": {
+            "25": 25.5,
+            "75": 33
+          },
+          "actScience": {
+            "25": 23,
+            "75": 28
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 9.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1210,
+            "75": 1250
+          },
+          "satMath": {
+            "25": 565,
+            "75": 575
+          },
+          "satReadingWriting": {
+            "25": 637.5,
+            "75": 672.5
+          }
+        },
+        "gpa": {
+          "25": 3.285,
+          "75": 3.555
+        },
+        "weightedGpa": {
+          "25": 3.285,
+          "75": 3.555
+        },
+        "gpaConverted": {
+          "25": 3.285,
+          "75": 3.555
+        },
+        "weightedGpaConverted": {
+          "25": 3.285,
+          "75": 3.555
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 25,
+            "75": 25
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 29
+          },
+          "actMath": {
+            "25": 23,
+            "75": 23
+          },
+          "actReading": {
+            "25": 31,
+            "75": 31
+          },
+          "actScience": {
+            "25": 23,
+            "75": 23
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1270,
+            "75": 1270
+          },
+          "satMath": {
+            "25": 580,
+            "75": 580
+          },
+          "satReadingWriting": {
+            "25": 690,
+            "75": 690
+          }
+        },
+        "gpa": {
+          "25": 3.335,
+          "75": 3.3850000000000002
+        },
+        "weightedGpa": {
+          "25": 3.335,
+          "75": 3.3850000000000002
+        },
+        "gpaConverted": {
+          "25": 3.335,
+          "75": 3.3850000000000002
+        },
+        "weightedGpaConverted": {
+          "25": 3.335,
+          "75": 3.3850000000000002
+        }
+      }
+    }
+  }
+}

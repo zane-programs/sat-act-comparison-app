@@ -1,0 +1,86 @@
+{
+  "name": "Whitman College",
+  "uuid": "da0f7760-6d9c-4dce-8362-3d031cc0786c",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26.75,
+            "75": 30.25
+          },
+          "actEnglish": {
+            "25": 27.25,
+            "75": 31.75
+          },
+          "actMath": {
+            "25": 25.25,
+            "75": 27.75
+          },
+          "actReading": {
+            "25": 30.5,
+            "75": 33.5
+          },
+          "actScience": {
+            "25": 25.25,
+            "75": 29.75
+          },
+          "actWriting": {
+            "25": 2,
+            "75": 6
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1495,
+            "75": 1505
+          },
+          "satMath": {
+            "25": 737.5,
+            "75": 772.5
+          },
+          "satReadingWriting": {
+            "25": 747.5,
+            "75": 762.5
+          }
+        },
+        "gpa": {
+          "25": 3.8,
+          "75": 4.13
+        },
+        "weightedGpa": {
+          "25": 3.8,
+          "75": 4.13
+        },
+        "gpaConverted": {
+          "25": 3.8,
+          "75": 4.13
+        },
+        "weightedGpaConverted": {
+          "25": 3.8,
+          "75": 4.13
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

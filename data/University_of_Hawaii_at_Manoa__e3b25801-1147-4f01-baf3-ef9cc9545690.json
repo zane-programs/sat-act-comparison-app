@@ -1,0 +1,86 @@
+{
+  "name": "University of Hawaii at Manoa",
+  "uuid": "e3b25801-1147-4f01-baf3-ef9cc9545690",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 32,
+            "75": 32
+          },
+          "actMath": {
+            "25": 27,
+            "75": 27
+          },
+          "actReading": {
+            "25": 35,
+            "75": 35
+          },
+          "actScience": {
+            "25": 32,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 10,
+            "75": 10
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1220,
+            "75": 1260
+          },
+          "satMath": {
+            "25": 570,
+            "75": 630
+          },
+          "satReadingWriting": {
+            "25": 630,
+            "75": 650
+          }
+        },
+        "gpa": {
+          "25": 3.035,
+          "75": 3.585
+        },
+        "weightedGpa": {
+          "25": 3.035,
+          "75": 3.585
+        },
+        "gpaConverted": {
+          "25": 3.035,
+          "75": 3.585
+        },
+        "weightedGpaConverted": {
+          "25": 3.035,
+          "75": 3.585
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

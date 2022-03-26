@@ -1,0 +1,86 @@
+{
+  "name": "Temple University",
+  "uuid": "0aa4b194-b100-4b04-8970-6f5fdd375bd7",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 24.25,
+            "75": 26.75
+          },
+          "actEnglish": {
+            "25": 25.75,
+            "75": 27.25
+          },
+          "actMath": {
+            "25": 26.25,
+            "75": 26.75
+          },
+          "actReading": {
+            "25": 26,
+            "75": 28
+          },
+          "actScience": {
+            "25": 22.25,
+            "75": 26.75
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 15
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1207.5,
+            "75": 1302.5
+          },
+          "satMath": {
+            "25": 647.5,
+            "75": 682.5
+          },
+          "satReadingWriting": {
+            "25": 577.5,
+            "75": 652.5
+          }
+        },
+        "gpa": {
+          "25": 3.3675,
+          "75": 3.8225
+        },
+        "weightedGpa": {
+          "25": 3.3675,
+          "75": 3.8225
+        },
+        "gpaConverted": {
+          "25": 3.3675,
+          "75": 3.8225
+        },
+        "weightedGpaConverted": {
+          "25": 3.3675,
+          "75": 3.8225
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

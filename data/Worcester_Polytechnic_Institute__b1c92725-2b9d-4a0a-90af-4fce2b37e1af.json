@@ -1,0 +1,105 @@
+{
+  "name": "Worcester Polytechnic Institute",
+  "uuid": "b1c92725-2b9d-4a0a-90af-4fce2b37e1af",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.72,
+        "gpaAvg": 3.93,
+        "gpaConvSum": 15.72,
+        "gpaConvAvg": 3.93,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.72,
+        "gpaAvg": 3.93,
+        "gpaConvSum": 15.72,
+        "gpaConvAvg": 3.93,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 34
+          },
+          "actEnglish": {
+            "25": 33.5,
+            "75": 35
+          },
+          "actMath": {
+            "25": 31,
+            "75": 34
+          },
+          "actReading": {
+            "25": 29,
+            "75": 34
+          },
+          "actScience": {
+            "25": 33,
+            "75": 35.5
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1420,
+            "75": 1480
+          },
+          "satMath": {
+            "25": 750,
+            "75": 780
+          },
+          "satReadingWriting": {
+            "25": 690,
+            "75": 730
+          }
+        },
+        "gpa": {
+          "25": 3.9175,
+          "75": 4.1675
+        },
+        "weightedGpa": {
+          "25": 3.9175,
+          "75": 4.1675
+        },
+        "gpaConverted": {
+          "25": 3.9175,
+          "75": 4.1675
+        },
+        "weightedGpaConverted": {
+          "25": 3.9175,
+          "75": 4.1675
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

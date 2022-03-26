@@ -129,6 +129,24 @@
                 "highestComboSat": 1520,
                 "studentSAT1600Composite": 1520,
                 "gpa": 4.35
+              },
+              {
+                "currentStudent": true,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1560,
+                "studentSAT1600Composite": 1560,
+                "gpa": 4.33
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1540,
+                "studentSAT1600Composite": 1540,
+                "gpa": 4.3
               }
             ]
           }
@@ -260,6 +278,24 @@
                 "highestComboSat": 1520,
                 "studentSAT1600Composite": 1520,
                 "gpa": 4.35
+              },
+              {
+                "currentStudent": true,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1560,
+                "studentSAT1600Composite": 1560,
+                "gpa": 4.33
+              },
+              {
+                "currentStudent": false,
+                "typeName": "RD",
+                "actComposite": 0,
+                "actCompositeStudent": 0,
+                "highestComboSat": 1540,
+                "studentSAT1600Composite": 1540,
+                "gpa": 4.3
               }
             ]
           }

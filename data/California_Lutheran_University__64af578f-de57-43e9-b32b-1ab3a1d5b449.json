@@ -1,0 +1,68 @@
+{
+  "name": "California Lutheran University",
+  "uuid": "64af578f-de57-43e9-b32b-1ab3a1d5b449",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1212.5,
+            "75": 1237.5
+          },
+          "satMath": {
+            "25": 575,
+            "75": 605
+          },
+          "satReadingWriting": {
+            "25": 632.5,
+            "75": 637.5
+          }
+        },
+        "gpa": {
+          "25": 2.9875,
+          "75": 3.7350000000000003
+        },
+        "weightedGpa": {
+          "25": 2.9875,
+          "75": 3.7350000000000003
+        },
+        "gpaConverted": {
+          "25": 2.9875,
+          "75": 3.7350000000000003
+        },
+        "weightedGpaConverted": {
+          "25": 2.9875,
+          "75": 3.7350000000000003
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

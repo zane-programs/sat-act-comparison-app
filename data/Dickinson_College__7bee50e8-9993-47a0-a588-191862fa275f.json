@@ -1,0 +1,105 @@
+{
+  "name": "Dickinson College",
+  "uuid": "7bee50e8-9993-47a0-a588-191862fa275f",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.61,
+        "gpaAvg": 3.9,
+        "gpaConvSum": 15.61,
+        "gpaConvAvg": 3.9,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.61,
+        "gpaAvg": 3.9,
+        "gpaConvSum": 15.61,
+        "gpaConvAvg": 3.9,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 30.75,
+            "75": 32.25
+          },
+          "actEnglish": {
+            "25": 34.25,
+            "75": 34.75
+          },
+          "actMath": {
+            "25": 27.25,
+            "75": 31.75
+          },
+          "actReading": {
+            "25": 33.5,
+            "75": 34.5
+          },
+          "actScience": {
+            "25": 27.75,
+            "75": 29.25
+          },
+          "actWriting": {
+            "25": 15.75,
+            "75": 25.25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1390,
+            "75": 1390
+          },
+          "satMath": {
+            "25": 620,
+            "75": 620
+          },
+          "satReadingWriting": {
+            "25": 720,
+            "75": 720
+          }
+        },
+        "gpa": {
+          "25": 3.6350000000000002,
+          "75": 3.9225
+        },
+        "weightedGpa": {
+          "25": 3.6350000000000002,
+          "75": 3.9225
+        },
+        "gpaConverted": {
+          "25": 3.6350000000000002,
+          "75": 3.9225
+        },
+        "weightedGpaConverted": {
+          "25": 3.6350000000000002,
+          "75": 3.9225
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

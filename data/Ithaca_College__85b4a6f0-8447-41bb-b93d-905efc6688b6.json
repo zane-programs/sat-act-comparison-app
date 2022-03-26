@@ -1,0 +1,68 @@
+{
+  "name": "Ithaca College",
+  "uuid": "85b4a6f0-8447-41bb-b93d-905efc6688b6",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1530,
+            "75": 1530
+          },
+          "satMath": {
+            "25": 780,
+            "75": 780
+          },
+          "satReadingWriting": {
+            "25": 750,
+            "75": 750
+          }
+        },
+        "gpa": {
+          "25": 3.6025,
+          "75": 3.8675
+        },
+        "weightedGpa": {
+          "25": 3.6025,
+          "75": 3.8675
+        },
+        "gpaConverted": {
+          "25": 3.6025,
+          "75": 3.8675
+        },
+        "weightedGpaConverted": {
+          "25": 3.6025,
+          "75": 3.8675
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

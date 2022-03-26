@@ -1,0 +1,135 @@
+{
+  "name": "Haverford College",
+  "uuid": "2ce77d3a-8662-4ccc-b854-a22c31025d5a",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 7,
+        "gpaSum": 28.3,
+        "gpaAvg": 4.04,
+        "gpaConvSum": 28.3,
+        "gpaConvAvg": 4.04,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 7,
+        "gpaSum": 28.3,
+        "gpaAvg": 4.04,
+        "gpaConvSum": 28.3,
+        "gpaConvAvg": 4.04,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 34.5
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35.5
+          },
+          "actMath": {
+            "25": 30.5,
+            "75": 33
+          },
+          "actReading": {
+            "25": 31.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 29,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 9.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1490,
+            "75": 1490
+          },
+          "satMath": {
+            "25": 780,
+            "75": 780
+          },
+          "satReadingWriting": {
+            "25": 730,
+            "75": 730
+          }
+        },
+        "gpa": {
+          "25": 4.0125,
+          "75": 4.1425
+        },
+        "weightedGpa": {
+          "25": 4.0125,
+          "75": 4.1425
+        },
+        "gpaConverted": {
+          "25": 4.0125,
+          "75": 4.1425
+        },
+        "weightedGpaConverted": {
+          "25": 4.0125,
+          "75": 4.1425
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 34.5
+          },
+          "actEnglish": {
+            "25": 35,
+            "75": 35.5
+          },
+          "actMath": {
+            "25": 30.5,
+            "75": 33
+          },
+          "actReading": {
+            "25": 31.5,
+            "75": 35.5
+          },
+          "actScience": {
+            "25": 29,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 9.5
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.995,
+          "75": 4.075
+        },
+        "weightedGpa": {
+          "25": 3.995,
+          "75": 4.075
+        },
+        "gpaConverted": {
+          "25": 3.995,
+          "75": 4.075
+        },
+        "weightedGpaConverted": {
+          "25": 3.995,
+          "75": 4.075
+        }
+      }
+    }
+  }
+}

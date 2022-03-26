@@ -4,20 +4,20 @@
   "data": {
     "scattergrams": {
       "gpa": {
-        "gpaCount": 7,
-        "gpaSum": 28.73,
-        "gpaAvg": 4.1,
-        "gpaConvSum": 28.72,
-        "gpaConvAvg": 4.1,
+        "gpaCount": 6,
+        "gpaSum": 24.43,
+        "gpaAvg": 4.07,
+        "gpaConvSum": 24.42,
+        "gpaConvAvg": 4.07,
         "act": null,
         "sat": null
       },
       "weightedGpa": {
-        "gpaCount": 7,
-        "gpaSum": 28.73,
-        "gpaAvg": 4.1,
-        "gpaConvSum": 28.72,
-        "gpaConvAvg": 4.1,
+        "gpaCount": 6,
+        "gpaSum": 24.43,
+        "gpaAvg": 4.07,
+        "gpaConvSum": 24.42,
+        "gpaConvAvg": 4.07,
         "act": null,
         "sat": null
       }
@@ -65,20 +65,20 @@
           }
         },
         "gpa": {
-          "25": 4.234999999999999,
-          "75": 4.265000000000001
+          "25": 4.25,
+          "75": 4.300000000000001
         },
         "weightedGpa": {
-          "25": 4.234999999999999,
-          "75": 4.265000000000001
+          "25": 4.25,
+          "75": 4.300000000000001
         },
         "gpaConverted": {
-          "25": 4.234999999999999,
-          "75": 4.265000000000001
+          "25": 4.25,
+          "75": 4.29
         },
         "weightedGpaConverted": {
-          "25": 4.234999999999999,
-          "75": 4.265000000000001
+          "25": 4.25,
+          "75": 4.29
         }
       },
       "enrolled": {

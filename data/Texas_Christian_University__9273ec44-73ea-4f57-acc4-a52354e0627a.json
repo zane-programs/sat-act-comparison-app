@@ -1,0 +1,77 @@
+{
+  "name": "Texas Christian University",
+  "uuid": "9273ec44-73ea-4f57-acc4-a52354e0627a",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26.75,
+            "75": 32.5
+          },
+          "actEnglish": {
+            "25": 26.5,
+            "75": 35
+          },
+          "actMath": {
+            "25": 27.5,
+            "75": 30.5
+          },
+          "actReading": {
+            "25": 29.5,
+            "75": 35
+          },
+          "actScience": {
+            "25": 22.25,
+            "75": 29.5
+          },
+          "actWriting": {
+            "25": 6.75,
+            "75": 12
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.77,
+          "75": 3.95
+        },
+        "weightedGpa": {
+          "25": 3.77,
+          "75": 3.95
+        },
+        "gpaConverted": {
+          "25": 3.77,
+          "75": 3.95
+        },
+        "weightedGpaConverted": {
+          "25": 3.77,
+          "75": 3.95
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

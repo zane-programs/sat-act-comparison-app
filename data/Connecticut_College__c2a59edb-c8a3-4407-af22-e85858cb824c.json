@@ -1,0 +1,117 @@
+{
+  "name": "Connecticut College",
+  "uuid": "c2a59edb-c8a3-4407-af22-e85858cb824c",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 8,
+        "gpaSum": 30.28,
+        "gpaAvg": 3.79,
+        "gpaConvSum": 30.28,
+        "gpaConvAvg": 3.79,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 8,
+        "gpaSum": 30.28,
+        "gpaAvg": 3.79,
+        "gpaConvSum": 30.28,
+        "gpaConvAvg": 3.79,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27,
+            "75": 29
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 30
+          },
+          "actMath": {
+            "25": 27,
+            "75": 31
+          },
+          "actReading": {
+            "25": 25,
+            "75": 29
+          },
+          "actScience": {
+            "25": 26,
+            "75": 26
+          },
+          "actWriting": {
+            "25": 0,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1355,
+            "75": 1380
+          },
+          "satMath": {
+            "25": 670,
+            "75": 715
+          },
+          "satReadingWriting": {
+            "25": 680,
+            "75": 700
+          }
+        },
+        "gpa": {
+          "25": 3.7199999999999998,
+          "75": 4.029999999999999
+        },
+        "weightedGpa": {
+          "25": 3.7199999999999998,
+          "75": 4.029999999999999
+        },
+        "gpaConverted": {
+          "25": 3.7199999999999998,
+          "75": 4.029999999999999
+        },
+        "weightedGpaConverted": {
+          "25": 3.7199999999999998,
+          "75": 4.029999999999999
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.67,
+          "75": 3.67
+        },
+        "weightedGpa": {
+          "25": 3.67,
+          "75": 3.67
+        },
+        "gpaConverted": {
+          "25": 3.67,
+          "75": 3.67
+        },
+        "weightedGpaConverted": {
+          "25": 3.67,
+          "75": 3.67
+        }
+      }
+    }
+  }
+}

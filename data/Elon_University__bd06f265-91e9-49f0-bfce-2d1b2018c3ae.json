@@ -1,0 +1,107 @@
+{
+  "name": "Elon University",
+  "uuid": "bd06f265-91e9-49f0-bfce-2d1b2018c3ae",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 30,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 33,
+            "75": 34
+          },
+          "actMath": {
+            "25": 27.75,
+            "75": 30
+          },
+          "actReading": {
+            "25": 31.75,
+            "75": 33.25
+          },
+          "actScience": {
+            "25": 28.75,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 17.75
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.0825,
+          "75": 3.73
+        },
+        "weightedGpa": {
+          "25": 3.0825,
+          "75": 3.73
+        },
+        "gpaConverted": {
+          "25": 3.0825,
+          "75": 3.73
+        },
+        "weightedGpaConverted": {
+          "25": 3.0825,
+          "75": 3.73
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 30
+          },
+          "actEnglish": {
+            "25": 30.5,
+            "75": 33.5
+          },
+          "actMath": {
+            "25": 25.5,
+            "75": 28
+          },
+          "actReading": {
+            "25": 29,
+            "75": 32
+          },
+          "actScience": {
+            "25": 28.5,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 12,
+            "75": 19.5
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 3.1,
+          "75": 3.37
+        },
+        "weightedGpa": {
+          "25": 3.1,
+          "75": 3.37
+        },
+        "gpaConverted": {
+          "25": 3.1,
+          "75": 3.37
+        },
+        "weightedGpaConverted": {
+          "25": 3.1,
+          "75": 3.37
+        }
+      }
+    }
+  }
+}

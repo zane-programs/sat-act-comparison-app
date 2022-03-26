@@ -1,0 +1,144 @@
+{
+  "name": "Pratt Institute-Main",
+  "uuid": "91dedadd-f752-46fb-aefd-a2bd06ba87be",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.55,
+        "gpaAvg": 3.89,
+        "gpaConvSum": 15.55,
+        "gpaConvAvg": 3.89,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 4,
+        "gpaSum": 15.55,
+        "gpaAvg": 3.89,
+        "gpaConvSum": 15.55,
+        "gpaConvAvg": 3.89,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 27.25,
+            "75": 31.75
+          },
+          "actEnglish": {
+            "25": 27.5,
+            "75": 32.5
+          },
+          "actMath": {
+            "25": 28.25,
+            "75": 30.75
+          },
+          "actReading": {
+            "25": 30,
+            "75": 34
+          },
+          "actScience": {
+            "25": 25.75,
+            "75": 31.25
+          },
+          "actWriting": {
+            "25": 8.5,
+            "75": 9.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1355,
+            "75": 1450
+          },
+          "satMath": {
+            "25": 650,
+            "75": 715
+          },
+          "satReadingWriting": {
+            "25": 700,
+            "75": 755
+          }
+        },
+        "gpa": {
+          "25": 3.66,
+          "75": 3.91
+        },
+        "weightedGpa": {
+          "25": 3.66,
+          "75": 3.91
+        },
+        "gpaConverted": {
+          "25": 3.66,
+          "75": 3.91
+        },
+        "weightedGpaConverted": {
+          "25": 3.66,
+          "75": 3.91
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 25,
+            "75": 25
+          },
+          "actEnglish": {
+            "25": 25,
+            "75": 25
+          },
+          "actMath": {
+            "25": 27,
+            "75": 27
+          },
+          "actReading": {
+            "25": 28,
+            "75": 28
+          },
+          "actScience": {
+            "25": 23,
+            "75": 23
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 8
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1332.5,
+            "75": 1377.5
+          },
+          "satMath": {
+            "25": 622.5,
+            "75": 687.5
+          },
+          "satReadingWriting": {
+            "25": 690,
+            "75": 710
+          }
+        },
+        "gpa": {
+          "25": 3.4450000000000003,
+          "75": 3.75
+        },
+        "weightedGpa": {
+          "25": 3.4450000000000003,
+          "75": 3.75
+        },
+        "gpaConverted": {
+          "25": 3.4450000000000003,
+          "75": 3.75
+        },
+        "weightedGpaConverted": {
+          "25": 3.4450000000000003,
+          "75": 3.75
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Pennsylvania State University-Penn State Main Campus",
+  "uuid": "63ef7672-bfe5-434d-a3b8-c4708cfc02e1",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 8,
+        "gpaSum": 30.44,
+        "gpaAvg": 3.81,
+        "gpaConvSum": 30.44,
+        "gpaConvAvg": 3.81,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 8,
+        "gpaSum": 30.44,
+        "gpaAvg": 3.81,
+        "gpaConvSum": 30.44,
+        "gpaConvAvg": 3.81,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 30.5
+          },
+          "actEnglish": {
+            "25": 31.5,
+            "75": 34.5
+          },
+          "actMath": {
+            "25": 26.5,
+            "75": 28.5
+          },
+          "actReading": {
+            "25": 27.5,
+            "75": 31.5
+          },
+          "actScience": {
+            "25": 25.5,
+            "75": 26.5
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 13.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1390,
+            "75": 1390
+          },
+          "satMath": {
+            "25": 690,
+            "75": 690
+          },
+          "satReadingWriting": {
+            "25": 710,
+            "75": 710
+          }
+        },
+        "gpa": {
+          "25": 3.64,
+          "75": 4.07
+        },
+        "weightedGpa": {
+          "25": 3.64,
+          "75": 4.07
+        },
+        "gpaConverted": {
+          "25": 3.64,
+          "75": 4.07
+        },
+        "weightedGpaConverted": {
+          "25": 3.64,
+          "75": 4.07
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "The University of Alabama",
+  "uuid": "b9e4a709-1e43-4922-80d2-23677e8eedb9",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 23,
+            "75": 23
+          },
+          "actEnglish": {
+            "25": 26,
+            "75": 26
+          },
+          "actMath": {
+            "25": 24,
+            "75": 24
+          },
+          "actReading": {
+            "25": 22,
+            "75": 22
+          },
+          "actScience": {
+            "25": 21,
+            "75": 21
+          },
+          "actWriting": {
+            "25": 25,
+            "75": 25
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1227.5,
+            "75": 1282.5
+          },
+          "satMath": {
+            "25": 565,
+            "75": 595
+          },
+          "satReadingWriting": {
+            "25": 650,
+            "75": 690
+          }
+        },
+        "gpa": {
+          "25": 3.355,
+          "75": 3.7525
+        },
+        "weightedGpa": {
+          "25": 3.355,
+          "75": 3.7525
+        },
+        "gpaConverted": {
+          "25": 3.355,
+          "75": 3.7525
+        },
+        "weightedGpaConverted": {
+          "25": 3.355,
+          "75": 3.7525
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

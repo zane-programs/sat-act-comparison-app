@@ -1,0 +1,126 @@
+{
+  "name": "Babson College",
+  "uuid": "a6a91e8b-8c04-4076-a057-731226cfcba0",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 6,
+        "gpaSum": 23.09,
+        "gpaAvg": 3.85,
+        "gpaConvSum": 23.09,
+        "gpaConvAvg": 3.85,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 6,
+        "gpaSum": 23.09,
+        "gpaAvg": 3.85,
+        "gpaConvSum": 23.09,
+        "gpaConvAvg": 3.85,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 33
+          },
+          "actEnglish": {
+            "25": 31,
+            "75": 35
+          },
+          "actMath": {
+            "25": 29,
+            "75": 32
+          },
+          "actReading": {
+            "25": 34,
+            "75": 36
+          },
+          "actScience": {
+            "25": 29,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1337.5,
+            "75": 1455
+          },
+          "satMath": {
+            "25": 687.5,
+            "75": 740
+          },
+          "satReadingWriting": {
+            "25": 635,
+            "75": 752.5
+          }
+        },
+        "gpa": {
+          "25": 3.5949999999999998,
+          "75": 3.96
+        },
+        "weightedGpa": {
+          "25": 3.5949999999999998,
+          "75": 3.96
+        },
+        "gpaConverted": {
+          "25": 3.5949999999999998,
+          "75": 3.96
+        },
+        "weightedGpaConverted": {
+          "25": 3.5949999999999998,
+          "75": 3.96
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1370,
+            "75": 1370
+          },
+          "satMath": {
+            "25": 730,
+            "75": 730
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 640
+          }
+        },
+        "gpa": {
+          "25": 4.03,
+          "75": 4.03
+        },
+        "weightedGpa": {
+          "25": 4.03,
+          "75": 4.03
+        },
+        "gpaConverted": {
+          "25": 4.03,
+          "75": 4.03
+        },
+        "weightedGpaConverted": {
+          "25": 4.03,
+          "75": 4.03
+        }
+      }
+    }
+  }
+}

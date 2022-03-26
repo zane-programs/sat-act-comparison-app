@@ -1,0 +1,144 @@
+{
+  "name": "Claremont McKenna College",
+  "uuid": "1c97fa8f-03fd-4eec-b271-1434b90f7189",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 7,
+        "gpaSum": 27.99,
+        "gpaAvg": 4,
+        "gpaConvSum": 27.98,
+        "gpaConvAvg": 4,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 7,
+        "gpaSum": 27.99,
+        "gpaAvg": 4,
+        "gpaConvSum": 27.98,
+        "gpaConvAvg": 4,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 31,
+            "75": 31
+          },
+          "actReading": {
+            "25": 33,
+            "75": 33
+          },
+          "actScience": {
+            "25": 29,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 26,
+            "75": 26
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1530,
+            "75": 1530
+          },
+          "satMath": {
+            "25": 760,
+            "75": 760
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "weightedGpa": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "gpaConverted": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "weightedGpaConverted": {
+          "25": 3.7375,
+          "75": 3.9125
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 34,
+            "75": 34
+          },
+          "actMath": {
+            "25": 31,
+            "75": 31
+          },
+          "actReading": {
+            "25": 33,
+            "75": 33
+          },
+          "actScience": {
+            "25": 29,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 26,
+            "75": 26
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1530,
+            "75": 1530
+          },
+          "satMath": {
+            "25": 760,
+            "75": 760
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "weightedGpa": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "gpaConverted": {
+          "25": 3.7375,
+          "75": 3.9125
+        },
+        "weightedGpaConverted": {
+          "25": 3.7375,
+          "75": 3.9125
+        }
+      }
+    }
+  }
+}

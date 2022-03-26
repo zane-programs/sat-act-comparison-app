@@ -1,0 +1,144 @@
+{
+  "name": "Occidental College",
+  "uuid": "fcb6570d-2c33-4cd9-86a9-39a967cd2423",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 7,
+        "gpaSum": 25.68,
+        "gpaAvg": 3.67,
+        "gpaConvSum": 25.68,
+        "gpaConvAvg": 3.67,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 7,
+        "gpaSum": 25.68,
+        "gpaAvg": 3.67,
+        "gpaConvSum": 25.68,
+        "gpaConvAvg": 3.67,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 25.25,
+            "75": 27.75
+          },
+          "actEnglish": {
+            "25": 26,
+            "75": 30.5
+          },
+          "actMath": {
+            "25": 27,
+            "75": 28.75
+          },
+          "actReading": {
+            "25": 24,
+            "75": 28
+          },
+          "actScience": {
+            "25": 26,
+            "75": 29
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 9.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1260,
+            "75": 1325
+          },
+          "satMath": {
+            "25": 625,
+            "75": 690
+          },
+          "satReadingWriting": {
+            "25": 645,
+            "75": 670
+          }
+        },
+        "gpa": {
+          "25": 3.51,
+          "75": 3.8
+        },
+        "weightedGpa": {
+          "25": 3.51,
+          "75": 3.8
+        },
+        "gpaConverted": {
+          "25": 3.51,
+          "75": 3.8
+        },
+        "weightedGpaConverted": {
+          "25": 3.51,
+          "75": 3.8
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 22.75,
+            "75": 24.25
+          },
+          "actEnglish": {
+            "25": 25,
+            "75": 29
+          },
+          "actMath": {
+            "25": 23.25,
+            "75": 25.75
+          },
+          "actReading": {
+            "25": 20.5,
+            "75": 23.5
+          },
+          "actScience": {
+            "25": 23,
+            "75": 25
+          },
+          "actWriting": {
+            "25": 11.5,
+            "75": 18.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1230,
+            "75": 1230
+          },
+          "satMath": {
+            "25": 600,
+            "75": 600
+          },
+          "satReadingWriting": {
+            "25": 640,
+            "75": 640
+          }
+        },
+        "gpa": {
+          "25": 3.3499999999999996,
+          "75": 3.5999999999999996
+        },
+        "weightedGpa": {
+          "25": 3.3499999999999996,
+          "75": 3.5999999999999996
+        },
+        "gpaConverted": {
+          "25": 3.3499999999999996,
+          "75": 3.5999999999999996
+        },
+        "weightedGpaConverted": {
+          "25": 3.3499999999999996,
+          "75": 3.5999999999999996
+        }
+      }
+    }
+  }
+}

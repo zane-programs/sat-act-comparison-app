@@ -1,0 +1,87 @@
+{
+  "name": "Harvey Mudd College",
+  "uuid": "cd02bf48-5a7d-4256-b9b1-289ad90b7504",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 6,
+        "gpaSum": 25.42,
+        "gpaAvg": 4.24,
+        "gpaConvSum": 25.39,
+        "gpaConvAvg": 4.23,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 6,
+        "gpaSum": 25.42,
+        "gpaAvg": 4.24,
+        "gpaConvSum": 25.39,
+        "gpaConvAvg": 4.23,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1540,
+            "75": 1540
+          },
+          "satMath": {
+            "25": 770,
+            "75": 770
+          },
+          "satReadingWriting": {
+            "25": 770,
+            "75": 770
+          }
+        },
+        "gpa": {
+          "25": 4.28,
+          "75": 4.28
+        },
+        "weightedGpa": {
+          "25": 4.28,
+          "75": 4.28
+        },
+        "gpaConverted": {
+          "25": 4.28,
+          "75": 4.28
+        },
+        "weightedGpaConverted": {
+          "25": 4.28,
+          "75": 4.28
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

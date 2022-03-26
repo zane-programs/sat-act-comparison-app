@@ -1,0 +1,135 @@
+{
+  "name": "Bowdoin College",
+  "uuid": "3b1522d8-b888-49d6-a1a6-1908e30ee715",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 12,
+        "gpaSum": 50.36,
+        "gpaAvg": 4.2,
+        "gpaConvSum": 50.38,
+        "gpaConvAvg": 4.2,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 12,
+        "gpaSum": 50.36,
+        "gpaAvg": 4.2,
+        "gpaConvSum": 50.38,
+        "gpaConvAvg": 4.2,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 32,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 32,
+            "75": 35
+          },
+          "actMath": {
+            "25": 30,
+            "75": 32
+          },
+          "actReading": {
+            "25": 31,
+            "75": 34
+          },
+          "actScience": {
+            "25": 28,
+            "75": 32
+          },
+          "actWriting": {
+            "25": 10,
+            "75": 27
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1570,
+            "75": 1570
+          },
+          "satMath": {
+            "25": 790,
+            "75": 790
+          },
+          "satReadingWriting": {
+            "25": 780,
+            "75": 780
+          }
+        },
+        "gpa": {
+          "25": 4.095,
+          "75": 4.235
+        },
+        "weightedGpa": {
+          "25": 4.095,
+          "75": 4.235
+        },
+        "gpaConverted": {
+          "25": 4.095,
+          "75": 4.235
+        },
+        "weightedGpaConverted": {
+          "25": 4.095,
+          "75": 4.235
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 29,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 30.5,
+            "75": 34
+          },
+          "actMath": {
+            "25": 30.5,
+            "75": 31.5
+          },
+          "actReading": {
+            "25": 28,
+            "75": 32.5
+          },
+          "actScience": {
+            "25": 27,
+            "75": 28.5
+          },
+          "actWriting": {
+            "25": 5,
+            "75": 18.5
+          }
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {
+          "25": 4.109999999999999,
+          "75": 4.199999999999999
+        },
+        "weightedGpa": {
+          "25": 4.109999999999999,
+          "75": 4.199999999999999
+        },
+        "gpaConverted": {
+          "25": 4.109999999999999,
+          "75": 4.199999999999999
+        },
+        "weightedGpaConverted": {
+          "25": 4.109999999999999,
+          "75": 4.199999999999999
+        }
+      }
+    }
+  }
+}

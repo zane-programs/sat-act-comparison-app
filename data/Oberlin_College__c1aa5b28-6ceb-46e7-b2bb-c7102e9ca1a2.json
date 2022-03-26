@@ -1,0 +1,144 @@
+{
+  "name": "Oberlin College",
+  "uuid": "c1aa5b28-6ceb-46e7-b2bb-c7102e9ca1a2",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 10,
+        "gpaSum": 40.64,
+        "gpaAvg": 4.06,
+        "gpaConvSum": 40.62,
+        "gpaConvAvg": 4.06,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 10,
+        "gpaSum": 40.64,
+        "gpaAvg": 4.06,
+        "gpaConvSum": 40.62,
+        "gpaConvAvg": 4.06,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 29,
+            "75": 32
+          },
+          "actEnglish": {
+            "25": 33,
+            "75": 35.5
+          },
+          "actMath": {
+            "25": 26,
+            "75": 31.5
+          },
+          "actReading": {
+            "25": 32.5,
+            "75": 35
+          },
+          "actScience": {
+            "25": 26,
+            "75": 30
+          },
+          "actWriting": {
+            "25": 8,
+            "75": 21
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1395,
+            "75": 1515
+          },
+          "satMath": {
+            "25": 710,
+            "75": 760
+          },
+          "satReadingWriting": {
+            "25": 695,
+            "75": 775
+          }
+        },
+        "gpa": {
+          "25": 3.8575,
+          "75": 4.07
+        },
+        "weightedGpa": {
+          "25": 3.8575,
+          "75": 4.07
+        },
+        "gpaConverted": {
+          "25": 3.8575,
+          "75": 4.07
+        },
+        "weightedGpaConverted": {
+          "25": 3.8575,
+          "75": 4.07
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": {
+            "25": 28,
+            "75": 30.5
+          },
+          "actEnglish": {
+            "25": 29.5,
+            "75": 34.5
+          },
+          "actMath": {
+            "25": 26,
+            "75": 29.5
+          },
+          "actReading": {
+            "25": 30.5,
+            "75": 33
+          },
+          "actScience": {
+            "25": 27,
+            "75": 29.5
+          },
+          "actWriting": {
+            "25": 14,
+            "75": 21.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1412.5,
+            "75": 1437.5
+          },
+          "satMath": {
+            "25": 700,
+            "75": 720
+          },
+          "satReadingWriting": {
+            "25": 712.5,
+            "75": 717.5
+          }
+        },
+        "gpa": {
+          "25": 3.7824999999999998,
+          "75": 4.0275
+        },
+        "weightedGpa": {
+          "25": 3.7824999999999998,
+          "75": 4.0275
+        },
+        "gpaConverted": {
+          "25": 3.7824999999999998,
+          "75": 4.0275
+        },
+        "weightedGpaConverted": {
+          "25": 3.7824999999999998,
+          "75": 4.0275
+        }
+      }
+    }
+  }
+}

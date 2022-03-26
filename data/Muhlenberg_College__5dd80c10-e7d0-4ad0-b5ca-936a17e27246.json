@@ -1,0 +1,86 @@
+{
+  "name": "Muhlenberg College",
+  "uuid": "5dd80c10-e7d0-4ad0-b5ca-936a17e27246",
+  "data": {
+    "scattergrams": null,
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 25,
+            "75": 25
+          },
+          "actEnglish": {
+            "25": 29,
+            "75": 29
+          },
+          "actMath": {
+            "25": 23,
+            "75": 23
+          },
+          "actReading": {
+            "25": 31,
+            "75": 31
+          },
+          "actScience": {
+            "25": 23,
+            "75": 23
+          },
+          "actWriting": {
+            "25": 9,
+            "75": 9
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1365,
+            "75": 1415
+          },
+          "satMath": {
+            "25": 607.5,
+            "75": 662.5
+          },
+          "satReadingWriting": {
+            "25": 717.5,
+            "75": 732.5
+          }
+        },
+        "gpa": {
+          "25": 3.41,
+          "75": 3.675
+        },
+        "weightedGpa": {
+          "25": 3.41,
+          "75": 3.675
+        },
+        "gpaConverted": {
+          "25": 3.41,
+          "75": 3.675
+        },
+        "weightedGpaConverted": {
+          "25": 3.41,
+          "75": 3.675
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": null,
+          "satMath": null,
+          "satReadingWriting": null
+        },
+        "gpa": {},
+        "weightedGpa": {},
+        "gpaConverted": {},
+        "weightedGpaConverted": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Denison University",
+  "uuid": "fb270995-0869-4b9e-9580-caf0e4813060",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 6,
+        "gpaSum": 21.7,
+        "gpaAvg": 3.62,
+        "gpaConvSum": 21.7,
+        "gpaConvAvg": 3.62,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 6,
+        "gpaSum": 21.7,
+        "gpaAvg": 3.62,
+        "gpaConvSum": 21.7,
+        "gpaConvAvg": 3.62,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 26.5,
+            "75": 29.5
+          },
+          "actEnglish": {
+            "25": 27.5,
+            "75": 32.5
+          },
+          "actMath": {
+            "25": 25.5,
+            "75": 28.5
+          },
+          "actReading": {
+            "25": 29.75,
+            "75": 31.25
+          },
+          "actScience": {
+            "25": 24,
+            "75": 26
+          },
+          "actWriting": {
+            "25": 2.25,
+            "75": 6.75
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1320,
+            "75": 1440
+          },
+          "satMath": {
+            "25": 615,
+            "75": 725
+          },
+          "satReadingWriting": {
+            "25": 695,
+            "75": 705
+          }
+        },
+        "gpa": {
+          "25": 3.28,
+          "75": 3.8
+        },
+        "weightedGpa": {
+          "25": 3.28,
+          "75": 3.8
+        },
+        "gpaConverted": {
+          "25": 3.28,
+          "75": 3.8
+        },
+        "weightedGpaConverted": {
+          "25": 3.28,
+          "75": 3.8
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1510,
+            "75": 1510
+          },
+          "satMath": {
+            "25": 800,
+            "75": 800
+          },
+          "satReadingWriting": {
+            "25": 710,
+            "75": 710
+          }
+        },
+        "gpa": {
+          "25": 3.16,
+          "75": 3.16
+        },
+        "weightedGpa": {
+          "25": 3.16,
+          "75": 3.16
+        },
+        "gpaConverted": {
+          "25": 3.16,
+          "75": 3.16
+        },
+        "weightedGpaConverted": {
+          "25": 3.16,
+          "75": 3.16
+        }
+      }
+    }
+  }
+}

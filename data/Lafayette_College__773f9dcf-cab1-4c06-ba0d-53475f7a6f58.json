@@ -1,0 +1,126 @@
+{
+  "name": "Lafayette College",
+  "uuid": "773f9dcf-cab1-4c06-ba0d-53475f7a6f58",
+  "data": {
+    "scattergrams": {
+      "gpa": {
+        "gpaCount": 12,
+        "gpaSum": 44.89,
+        "gpaAvg": 3.74,
+        "gpaConvSum": 44.89,
+        "gpaConvAvg": 3.74,
+        "act": null,
+        "sat": null
+      },
+      "weightedGpa": {
+        "gpaCount": 12,
+        "gpaSum": 44.89,
+        "gpaAvg": 3.74,
+        "gpaConvSum": 44.89,
+        "gpaConvAvg": 3.74,
+        "act": null,
+        "sat": null
+      }
+    },
+    "applicationStatistics": {
+      "accepted": {
+        "act": {
+          "actComposite": {
+            "25": 31.5,
+            "75": 34.5
+          },
+          "actEnglish": {
+            "25": 32.75,
+            "75": 34.25
+          },
+          "actMath": {
+            "25": 30.5,
+            "75": 33.5
+          },
+          "actReading": {
+            "25": 30,
+            "75": 34
+          },
+          "actScience": {
+            "25": 30.75,
+            "75": 34.25
+          },
+          "actWriting": {
+            "25": 6.5,
+            "75": 7.5
+          }
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1175,
+            "75": 1265
+          },
+          "satMath": {
+            "25": 560,
+            "75": 640
+          },
+          "satReadingWriting": {
+            "25": 622.5,
+            "75": 647.5
+          }
+        },
+        "gpa": {
+          "25": 3.5250000000000004,
+          "75": 4.105
+        },
+        "weightedGpa": {
+          "25": 3.5250000000000004,
+          "75": 4.105
+        },
+        "gpaConverted": {
+          "25": 3.5250000000000004,
+          "75": 4.105
+        },
+        "weightedGpaConverted": {
+          "25": 3.5250000000000004,
+          "75": 4.105
+        }
+      },
+      "enrolled": {
+        "act": {
+          "actComposite": null,
+          "actEnglish": null,
+          "actMath": null,
+          "actReading": null,
+          "actScience": null,
+          "actWriting": null
+        },
+        "sat": {
+          "satTotal": {
+            "25": 1130,
+            "75": 1130
+          },
+          "satMath": {
+            "25": 520,
+            "75": 520
+          },
+          "satReadingWriting": {
+            "25": 610,
+            "75": 610
+          }
+        },
+        "gpa": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "weightedGpa": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "gpaConverted": {
+          "25": 3.14,
+          "75": 3.14
+        },
+        "weightedGpaConverted": {
+          "25": 3.14,
+          "75": 3.14
+        }
+      }
+    }
+  }
+}
