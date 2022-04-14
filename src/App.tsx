@@ -65,6 +65,7 @@ function AppNav() {
 
 const AppMain = styled.main`
   margin-top: 40px;
+  z-index: 9997;
 `;
 
 const NavLink = styled(Link)`
