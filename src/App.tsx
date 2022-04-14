@@ -65,20 +65,21 @@ function AppNav() {
 
 const AppMain = styled.main`
   margin-top: 40px;
-  z-index: 9997;
-`;
-
-const NavLink = styled(Link)`
+  `;
+  
+  const NavLink = styled(Link)`
   color: #00f;
   text-decoration: none;
-
+  
   &:hover,
   &.selectedLink {
     text-decoration: underline;
   }
-`;
+  `;
+  
+  const NavComponent = styled.nav`
+  z-index: 9997;
 
-const NavComponent = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
