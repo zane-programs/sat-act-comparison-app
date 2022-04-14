@@ -79,7 +79,7 @@ function PercentileRangeCount({
 }) {
   const rangeData: CollegeData["data"] = useMemo(
     () => (data ? filterDataByRange(data, range) : null),
-    []
+    [data, range]
   );
 
   return (

@@ -51,7 +51,7 @@ function AppNav() {
 
   return (
     <nav>
-      {navItems.map(({ name, path }, index) => (
+      {navItems.map(({ name, path }) => (
         <Fragment key={name + path}>
           <NavLink
             to={path}
@@ -59,11 +59,11 @@ function AppNav() {
             className={pathname === path ? "selectedLink" : undefined}
           >
             {name}
-          </NavLink>{" "}
-          {/* nav link separator */}
-          {index === navItems.length - 1 ? "" : "| "}
+          </NavLink>
+          {" | "}
         </Fragment>
-      ))}
+      ))}{" "}
+      v{__APP_VERSION__}
     </nav>
   );
 }

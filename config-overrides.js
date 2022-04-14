@@ -3,6 +3,9 @@ const { DefinePlugin } = require("webpack");
 const { readdirSync, readFileSync } = require("fs");
 const { join: joinPath } = require("path");
 
+// get data from package.json
+const packageJson = require("./package.json");
+
 // get file names for naviance data
 const navianceDataFileNames = readdirSync(joinPath(__dirname, "./data"));
 
@@ -21,6 +24,7 @@ module.exports = function override(config) {
   config.plugins.push(
     new DefinePlugin({
       __NAVIANCE_DATA__: JSON.stringify(navianceData),
+      __APP_VERSION__: JSON.stringify(packageJson.version),
     })
   );
 
