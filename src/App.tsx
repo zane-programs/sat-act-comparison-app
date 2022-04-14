@@ -29,28 +29,18 @@ function AppLayout() {
   return (
     <>
       <AppNav />
-      <main style={{ marginTop: "15px" }}>
+      <AppMain>
         <Outlet />
-      </main>
+      </AppMain>
     </>
   );
 }
-
-const NavLink = styled(Link)`
-  color: #00f;
-  text-decoration: none;
-
-  &:hover,
-  &.selectedLink {
-    text-decoration: underline;
-  }
-`;
 
 function AppNav() {
   const { pathname } = useLocation();
 
   return (
-    <nav>
+    <NavComponent>
       {navItems.map(({ name, path }) => (
         <Fragment key={name + path}>
           <NavLink
@@ -64,6 +54,34 @@ function AppNav() {
         </Fragment>
       ))}{" "}
       v{__APP_VERSION__}
-    </nav>
+    </NavComponent>
   );
 }
+
+const AppMain = styled.main`
+  margin-top: 40px;
+`;
+
+const NavLink = styled(Link)`
+  color: #00f;
+  text-decoration: none;
+
+  &:hover,
+  &.selectedLink {
+    text-decoration: underline;
+  }
+`;
+
+const NavComponent = styled.nav`
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 30px;
+
+  background: rgba(255, 255, 255, 0.85);
+
+  padding: 5px;
+  width: 100%;
+
+  box-sizing: border-box;
+`;
