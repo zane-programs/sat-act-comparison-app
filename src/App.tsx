@@ -1,5 +1,5 @@
 import { Link, Outlet, Route, Routes, useLocation } from "react-router-dom";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import styled from "styled-components";
 
 // config
@@ -38,6 +38,11 @@ function AppLayout() {
 
 function AppNav() {
   const { pathname } = useLocation();
+
+  // scroll to top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <NavComponent>
