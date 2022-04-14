@@ -3,12 +3,15 @@ import { collegeData } from "../data";
 
 export default function Home() {
   return (
-    <ul>
-      {collegeData.map(({ name, uuid }) => (
-        <li>
-          <Link to={"/college/" + uuid}>{name}</Link>
-        </li>
-      ))}
-    </ul>
+    <>
+      <h1>College Scatterplots</h1>
+      <ul>
+        {collegeData.map(({ name, uuid }) => (
+          <li key={uuid}>
+            <Link to={"/college/" + uuid}>{name}</Link>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }

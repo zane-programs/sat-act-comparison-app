@@ -1,3 +1,4 @@
+import { ParsedTestData, CollegeData } from "./types/college";
 import { GPAData, StandardizedTestData } from "./types/naviance";
 import { getPercentileFromData, satData, actData } from "./utils/naviance";
 
@@ -9,24 +10,6 @@ const SCORE_KEYS: {
   sat: "highestComboSat",
   act: "actComposite",
 };
-
-export interface ParsedTestData {
-  test: "sat" | "act";
-  status: string;
-  gpa: number;
-  rawScore: number;
-  percentile: number;
-}
-
-export interface CollegeData {
-  name: string;
-  uuid: string;
-  data: {
-    accepted: ParsedTestData[];
-    denied: ParsedTestData[];
-    unknown: ParsedTestData[];
-  } | null;
-}
 
 export const collegeData: CollegeData[] = __NAVIANCE_DATA__.map(
   ({ name, uuid, data: { scattergrams } }) => {

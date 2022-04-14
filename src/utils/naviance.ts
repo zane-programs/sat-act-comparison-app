@@ -1,4 +1,4 @@
-import { ParsedTestData } from "../data";
+import { CollegeData, ParsedTestData } from "../types/college";
 import { ScatterData } from "plotly.js";
 
 export type PercentileData = { [key: number | string]: number };
@@ -194,7 +194,7 @@ export function convertParsedDataForGraphing({
   accepted: ParsedTestData[];
   denied: ParsedTestData[];
   unknown: ParsedTestData[];
-}) {
+}): Partial<ScatterData>[] {
   // ACCEPTED
   let acceptedSAT = createPlotlyScatterData(
     "SAT - Accepted",
@@ -272,14 +272,41 @@ function createPlotlyScatterData(
     x,
     y,
     text,
+    name,
     hoverinfo: "x+y+text",
     mode: "markers",
-    name: name,
     type: "scatter",
     marker: {
       color: color || "rgb(0, 0, 0)",
       size: 12,
       symbol: symbol,
     },
+  };
+}
+
+export function mergeCollegeData(
+  dataArr: CollegeData[],
+  newName: string,
+  newUuid: string = "00000000-0000-0000-0000-000000000000"
+): CollegeData {
+  let accepted: ParsedTestData[] = [];
+  let denied: ParsedTestData[] = [];
+  let unknown: ParsedTestData[] = [];
+
+  dataArr.forEach(({ data }) => {
+    // data cannot be null
+    if (data) {
+      // add data to the new arrays
+      accepted.push(...data.accepted);
+      denied.push(...data.denied);
+      unknown.push(...data.unknown);
+    }
+  });
+
+  // return merged college data
+  return {
+    name: newName,
+    uuid: newUuid,
+    data: { accepted, denied, unknown },
   };
 }
