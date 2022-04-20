@@ -49,7 +49,7 @@ export default function CollegeGroupComponent({
     getColleges();
   }, [colleges, name]);
 
-  return groupMergedCollegeData ? (
+  return allData.length > 0 ? (
     <>
       <h1>{name}</h1>
       <h2>Colleges</h2>
