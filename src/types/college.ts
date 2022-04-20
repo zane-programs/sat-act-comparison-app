@@ -22,6 +22,7 @@ export interface CollegeGroup {
 }
 
 export interface CollegeResults {
+  [key: string]: ParsedTestData[] | undefined;
   accepted: ParsedTestData[];
   denied: ParsedTestData[];
   unknown: ParsedTestData[];

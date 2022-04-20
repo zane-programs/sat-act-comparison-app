@@ -1,6 +1,7 @@
 import type { ScrapedNavianceDatum } from "../types/naviance";
 
 const API_URL = "https://sat-act-api.vercel.app/api";
+// const API_URL = "http://localhost:3000/api";
 
 export async function fetchCollegeList(): Promise<{ [uuid: string]: string }> {
   // key: uuid

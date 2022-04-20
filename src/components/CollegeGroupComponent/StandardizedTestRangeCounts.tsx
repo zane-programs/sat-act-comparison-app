@@ -9,7 +9,7 @@ import type {
 } from "../../types/college";
 import { mergeCollegeResults } from "../../utils/naviance";
 
-const CollegeDataContext = createContext<CollegeData>({} as CollegeData);
+const RangeDataContext = createContext<CollegeResults>({} as CollegeResults);
 
 export default function StandardizedTestRangeCounts({
   data,
@@ -24,7 +24,7 @@ export default function StandardizedTestRangeCounts({
   );
 
   return (
-    <CollegeDataContext.Provider value={data}>
+    <>
       <h2>Counts</h2>
       <RangeCountsTable>
         <thead>
@@ -48,7 +48,7 @@ export default function StandardizedTestRangeCounts({
           <TotalsRow data={data} />
         </tbody>
       </RangeCountsTable>
-    </CollegeDataContext.Provider>
+    </>
   );
 }
 
@@ -75,32 +75,20 @@ function PercentileRangeCountRow({
     <tr>
       <td>{getPercentileRangeString(range)}</td>
       {rangeData ? (
-        <>
+        <RangeDataContext.Provider value={rangeData}>
           {/* Accepted SAT */}
-          <PercentileRangeCountRowCell
-            categoryData={rangeData.accepted}
-            testName="sat"
-          />
+          <PercentileRangeCountRowCell category="accepted" testName="sat" />
           {/* Accepted ACT */}
-          <PercentileRangeCountRowCell
-            categoryData={rangeData.accepted}
-            testName="act"
-          />
+          <PercentileRangeCountRowCell category="accepted" testName="act" />
           {/* Denied SAT */}
-          <PercentileRangeCountRowCell
-            categoryData={rangeData.denied}
-            testName="sat"
-          />
+          <PercentileRangeCountRowCell category="denied" testName="sat" />
           {/* Denied ACT */}
-          <PercentileRangeCountRowCell
-            categoryData={rangeData.denied}
-            testName="act"
-          />
+          <PercentileRangeCountRowCell category="denied" testName="act" />
           {/* Row Total */}
           <td>
             <strong>{rowTotal}</strong>
           </td>
-        </>
+        </RangeDataContext.Provider>
       ) : (
         <td colSpan={5}>No data</td>
       )}
@@ -124,25 +112,48 @@ function PercentileRangeCountRow({
 }
 
 function PercentileRangeCountRowCell({
-  categoryData,
+  category,
   testName,
 }: {
-  categoryData: ParsedTestData[];
+  category: "accepted" | "denied" | "unknown";
   testName: "sat" | "act";
 }) {
-  const { data } = useContext(CollegeDataContext);
+  const rangeData = useContext(RangeDataContext);
 
-  const overallTotal = useMemo(
-    () => (data ? data.accepted.length + data.denied.length : 0),
-    [data]
+  // const overallTotal = useMemo(
+  //   () => (data ? data.accepted.length + data.denied.length : 0),
+  //   [data]
+  // );
+
+  const categoryData = useMemo(
+    () => rangeData[category],
+    [rangeData, category]
+  );
+
+  const rangeTotal = useMemo(
+    () => rangeData.accepted.length + rangeData.denied.length,
+    [rangeData.accepted.length, rangeData.denied.length]
+  );
+
+  // total number of standardized tests by given name
+  // see category prop ("sat" or "act")
+  const totalStandardizedTestsByName = useMemo(
+    () => getTestCount([...rangeData.accepted, ...rangeData.denied], testName),
+    [rangeData.accepted, rangeData.denied, testName]
+  );
+
+  // rate for this category (accept or deny)
+  const categoryAcceptOrDenyRate = useMemo(
+    () => (rangeTotal === 0 ? 0 : categoryData.length / rangeTotal),
+    [categoryData.length, rangeTotal]
   );
 
   return (
     <td>
       {/* test count (see getTestCount) */}
       {getTestCount(categoryData, testName)}{" "}
-      {/* expected count: test category divided by two */}(
-      {data ? categoryData.length / 2 : "??"})
+      {/* expected count: total SATs or ACTs multiplied by accept or deny rate for this category */}
+      ({(totalStandardizedTestsByName * categoryAcceptOrDenyRate).toFixed(3)})
     </td>
   );
 }
