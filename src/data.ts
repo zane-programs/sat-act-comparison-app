@@ -1,5 +1,9 @@
-import { ParsedTestData, CollegeData } from "./types/college";
-import { GPAData, StandardizedTestData } from "./types/naviance";
+import type { ParsedTestData, CollegeData } from "./types/college";
+import type {
+  GPAData,
+  ScrapedNavianceDatum,
+  StandardizedTestData,
+} from "./types/naviance";
 import { getPercentileFromData, satData, actData } from "./utils/naviance";
 
 const SCORE_KEYS: {
@@ -11,8 +15,10 @@ const SCORE_KEYS: {
   act: "actComposite",
 };
 
-export const collegeData: CollegeData[] = __NAVIANCE_DATA__.map(
-  ({ name, uuid, data: { scattergrams } }) => {
+export function convertScrapedDataToCollegeDataFormat(
+  scrapedData: ScrapedNavianceDatum[]
+): CollegeData[] {
+  return scrapedData.map(({ name, uuid, data: { scattergrams } }) => {
     // TODO: Check if gpa and weightedGpa are different
     const gpaData = scattergrams?.weightedGpa;
 
@@ -21,8 +27,11 @@ export const collegeData: CollegeData[] = __NAVIANCE_DATA__.map(
       : null;
 
     return { name, uuid, data: finalData };
-  }
-);
+  });
+}
+
+// export const collegeData =
+//   convertScrapedDataToCollegeDataFormat(__NAVIANCE_DATA__);
 
 function parseGpaData(gpaData: GPAData) {
   // parse sat and act data separately

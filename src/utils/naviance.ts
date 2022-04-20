@@ -1,5 +1,9 @@
-import { CollegeData, ParsedTestData } from "../types/college";
-import { ScatterData } from "plotly.js";
+import type {
+  CollegeData,
+  CollegeResults,
+  ParsedTestData,
+} from "../types/college";
+import type { ScatterData } from "plotly.js";
 
 export type PercentileData = { [key: number | string]: number };
 
@@ -309,4 +313,18 @@ export function mergeCollegeData(
     uuid: newUuid,
     data: { accepted, denied, unknown },
   };
+}
+
+export function mergeCollegeResults(results: CollegeResults[]): CollegeResults {
+  let accepted: ParsedTestData[] = [];
+  let denied: ParsedTestData[] = [];
+  let unknown: ParsedTestData[] = [];
+
+  results.forEach((result) => {
+    accepted.push(...result.accepted);
+    denied.push(...result.denied);
+    unknown.push(...result.unknown);
+  });
+
+  return { accepted, denied, unknown };
 }

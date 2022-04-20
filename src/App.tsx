@@ -1,9 +1,16 @@
-import { Link, Outlet, Route, Routes, useLocation } from "react-router-dom";
+import {
+  Link,
+  Outlet,
+  Route,
+  Routes,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import { Fragment, useEffect } from "react";
 import styled from "styled-components";
 
 // config
-import { navItems } from "./config";
+import { isEmbed, navItems } from "./config";
 
 // pages
 import Home from "./pages/Home";
@@ -46,6 +53,8 @@ function AppNav() {
 
   return (
     <NavComponent>
+      {/* show navigation buttons if embedded */}
+      {isEmbed ? <NavigationButtons /> : null}
       {navItems.map(({ name, path }) => (
         <Fragment key={name + path}>
           <NavLink
@@ -58,26 +67,62 @@ function AppNav() {
           {" | "}
         </Fragment>
       ))}{" "}
-      v{__APP_VERSION__}
+      {/* app version and commit hash (with github link) */}
+      v{__APP_VERSION__} (
+      {process.env.NODE_ENV === "development" ? (
+        "dev"
+      ) : (
+        <a
+          href={
+            "https://github.com/zane-programs/sat-act-comparison-app/commit/" +
+            __COMMIT_HASH__
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <code>{__COMMIT_HASH__.substring(0, 7)}</code>
+        </a>
+      )}
+      )
     </NavComponent>
   );
 }
 
+function NavigationButtons() {
+  const navigate = useNavigate();
+
+  return (
+    <NavigationButtonsContainer>
+      <button onClick={() => navigate(-1)} title="Back" aria-label="Back">
+        &lt;
+      </button>
+      <button onClick={() => navigate(1)} title="Forward" aria-label="Forward">
+        &gt;
+      </button>
+    </NavigationButtonsContainer>
+  );
+}
+
+const NavigationButtonsContainer = styled.div`
+  display: inline-block;
+  margin-right: 7px;
+`;
+
 const AppMain = styled.main`
   margin-top: 40px;
-  `;
-  
-  const NavLink = styled(Link)`
+`;
+
+const NavLink = styled(Link)`
   color: #00f;
   text-decoration: none;
-  
+
   &:hover,
   &.selectedLink {
     text-decoration: underline;
   }
-  `;
-  
-  const NavComponent = styled.nav`
+`;
+
+const NavComponent = styled.nav`
   z-index: 9997;
 
   position: fixed;

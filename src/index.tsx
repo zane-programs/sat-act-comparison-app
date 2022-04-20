@@ -3,7 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 
-// global styles
+// styles
+import "katex/dist/katex.min.css";
 import "./styles/global.css";
 
 ReactDOM.render(

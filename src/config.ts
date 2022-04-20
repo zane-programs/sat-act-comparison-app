@@ -1,9 +1,11 @@
-import { CollegeGroup } from "./types/misc";
+import { CollegeGroup } from "./types/college";
 
 interface NavItem {
   name: string;
   path: string;
 }
+
+export const isEmbed = window.location.search === "?embed";
 
 export const groups: CollegeGroup[] = [
   {
