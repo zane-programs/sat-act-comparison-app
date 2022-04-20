@@ -11,13 +11,20 @@ export async function fetchCollegeList(): Promise<{ [uuid: string]: string }> {
 export async function fetchCollegeData(
   uuid: string | string[]
 ): Promise<ScrapedNavianceDatum[]> {
+  const uuidsArray = typeof uuid === "string" ? [uuid] : uuid;
+
   // fetch data for one or more colleges
-  return await _fetchEndpoint(
-    "/college/" + (typeof uuid === "string" ? uuid : uuid.join(","))
-  );
+  return await _fetchEndpoint("/college", {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ uuid: uuidsArray }),
+  });
 }
 
-async function _fetchEndpoint(endpoint: string) {
-  const req = await fetch(API_URL + endpoint);
+async function _fetchEndpoint(endpoint: string, init?: RequestInit) {
+  const req = await fetch(API_URL + endpoint, init);
   return await req.json();
 }

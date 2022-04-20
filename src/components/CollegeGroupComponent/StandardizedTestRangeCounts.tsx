@@ -142,7 +142,7 @@ function PercentileRangeCountRowCell({
       {/* test count (see getTestCount) */}
       {getTestCount(categoryData, testName)}{" "}
       {/* expected count: test category divided by two */}(
-      {data ? categoryData.length / overallTotal : "??"})
+      {data ? categoryData.length / 2 : "??"})
     </td>
   );
 }
