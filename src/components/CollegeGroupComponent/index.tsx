@@ -50,24 +50,25 @@ export default function CollegeGroupComponent({
 }: {
   group: CollegeGroup;
 }) {
-  const [allData, setAllData] = useState<CollegeData[]>([]);
+  const [allData, setAllData] = useState<CollegeData[] | null>(null);
 
   const groupMergedCollegeData = useMemo(
-    () => mergeCollegeData(allData, name),
+    () => mergeCollegeData(allData || [], name),
     [allData, name]
   );
 
   const countMatrices: { observed: Matrix; expected: Matrix } = useMemo(
     () =>
-      allData.length > 0
-        ? createObservedAndExpectedMatrices(groupMergedCollegeData.data!)
+      allData && groupMergedCollegeData?.data
+        ? createObservedAndExpectedMatrices(groupMergedCollegeData.data)
         : { observed: [], expected: [] },
-    [allData.length, groupMergedCollegeData.data]
+    [allData, groupMergedCollegeData.data]
   );
 
   const chiSquareTestResult = useMemo(
     () =>
-      countMatrices.observed.length > 0
+      // need at LEAST two rows
+      countMatrices.observed.length >= 2
         ? independenceTest(countMatrices.observed, countMatrices.expected)
         : null,
     [countMatrices.observed, countMatrices.expected]
@@ -85,34 +86,42 @@ export default function CollegeGroupComponent({
     getColleges();
   }, [colleges, name]);
 
-  return allData.length > 0 ? (
-    <GroupContext.Provider
-      value={{
-        countMatrices,
-        chiSquareTestResult,
-        groupData: groupMergedCollegeData,
-      }}
-    >
+  return (
+    <>
       <h1>{name}</h1>
-      <section>
-        <h2>Colleges</h2>
-        <ul>
-          {/* college names */}
-          {colleges.map((uuid) => (
-            <li key={uuid}>
-              <Link to={"/college/" + uuid}>
-                {allData.find((datum) => datum.uuid === uuid)?.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-      <ScatterPlot />
-      <StandardizedTestRangeCounts />
-      <ChiSquareIndependenceTest />
-    </GroupContext.Provider>
-  ) : (
-    <>Loading...</>
+      {allData &&
+      countMatrices.observed.length > 0 &&
+      countMatrices.expected.length > 0 ? (
+        <GroupContext.Provider
+          value={{
+            countMatrices,
+            chiSquareTestResult,
+            groupData: groupMergedCollegeData,
+          }}
+        >
+          <section>
+            <h2>Colleges</h2>
+            <ul>
+              {/* college names */}
+              {colleges.map((uuid) => (
+                <li key={uuid}>
+                  <Link to={"/college/" + uuid}>
+                    {allData.find((datum) => datum.uuid === uuid)?.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <ScatterPlot />
+          <StandardizedTestRangeCounts />
+          <ChiSquareIndependenceTest />
+        </GroupContext.Provider>
+      ) : allData && getCollegeDataCount(allData[0]) === 0 ? (
+        <p>No Data</p>
+      ) : (
+        <p>Loading...</p>
+      )}
+    </>
   );
 }
 
@@ -124,5 +133,13 @@ function ScatterPlot() {
       <h2>Merged Scatterplot</h2>
       <CollegeScatterPlot college={groupData} />
     </section>
+  );
+}
+
+function getCollegeDataCount({ data }: CollegeData) {
+  return (
+    (data?.accepted.length || 0) +
+    (data?.denied.length || 0) +
+    (data?.unknown.length || 0)
   );
 }

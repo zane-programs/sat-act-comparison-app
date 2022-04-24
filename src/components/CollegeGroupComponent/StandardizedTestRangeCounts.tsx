@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo } from "react";
+import { createContext, useContext, useMemo } from "react";
 import styled from "styled-components";
 
 // context
@@ -10,7 +10,6 @@ import type { CollegeData, CollegeResults } from "../../types/college";
 // utils
 import {
   calculateExpectedCount,
-  createObservedAndExpectedMatrices,
   getTestCount,
   groupDataByExpectedCount,
 } from "../../utils/group-data";
@@ -24,10 +23,6 @@ export default function StandardizedTestRangeCounts() {
     () => groupDataByExpectedCount(data.data!),
     [data.data]
   );
-
-  useEffect(() => {
-    console.log(createObservedAndExpectedMatrices(data.data!));
-  }, [data.data]);
 
   return (
     <section>

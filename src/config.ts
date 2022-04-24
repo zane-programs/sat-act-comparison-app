@@ -5,6 +5,9 @@ interface NavItem {
   path: string;
 }
 
+// alpha = 0.05
+export const CHI_SQUARE_ALPHA_VALUE = 0.05;
+
 export const isEmbed = window.location.search === "?embed";
 
 export const groups: CollegeGroup[] = [
@@ -92,7 +95,7 @@ export const groups: CollegeGroup[] = [
     ],
   },
   {
-    name: "All UCs",
+    name: "University of California Schools",
     colleges: [
       "a14b40e2-8bb8-4168-9454-f729fe03575f",
       "9563278b-74d9-4a00-ac07-8ebb7b941a4c",
@@ -131,6 +134,31 @@ export const groups: CollegeGroup[] = [
       "04f735ef-fdeb-4991-8be9-6c99591c2a15", // Northwestern (McCormick) ***(no specific UUID!!!!)
       "9f1e2181-78a5-4c6a-b21f-b0c8f0036d5d", // UPenn
       "4114ab3f-cf42-4430-bbb8-b8a6c93497a0", // Princeton
+    ],
+  },
+  {
+    name: "CBS News Top 20 Best in College Sports",
+    colleges: [
+      "b9e4a709-1e43-4922-80d2-23677e8eedb9", // University of Alabama
+      "73fac5e8-978b-4871-a922-055c8352e142", // University of Oklahoma
+      "2e73cbfe-a7bc-41eb-b4c9-6d1ba77a5a57", // University of Iowa
+      // Oklahoma State - wasn't in the Windward Data (SKIPPED)
+      "ff7a7898-cfe0-4cd0-a39e-e84703768c51", // UT Austin
+      "0b60a00e-5e20-41c5-ba29-2d5a6e461cfa", // USC
+      "9d1e279c-bcd5-4df0-8a24-a9a980569f24", // University of Florida
+      // BYU - wasn't in the Windward Data (SKIPPED)
+      "fc5be436-9952-4a6b-b959-b7e132a37c40", // Clemson
+      "3fedbd43-c469-45d0-81cd-1d056a61061e", // Ohio State
+      "d1af09f2-07ec-4622-a611-4cdfee8852d0", // Michigan
+      "e883594c-dc4c-4457-bb05-89a9d918c74e", // UCLA
+      "4c62d94b-2fcc-4430-957f-c829856c7974", // UNC (Tar Heels)
+      // Texas A&M - wasn't in the Windward Data (SKIPPED)
+      "04f735ef-fdeb-4991-8be9-6c99591c2a15", // Northwestern
+      "1f6470c2-cb3d-478f-bfe2-a2274f82d17a", // University of Oregon
+      // University of Arkansas - wasn't in the Windward Data (SKIPPED)
+      "643c336e-11a6-4281-ab85-596476721ad9", // Baylor
+      "e3bd82ba-1767-4b00-a028-87befa34b3b0", // University of Georgia
+      "d4cd371a-f32f-41ac-a4be-cf9248e22c25", // Indiana University Bloomington
     ],
   },
 ];

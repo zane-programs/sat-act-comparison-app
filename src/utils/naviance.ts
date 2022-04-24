@@ -321,9 +321,12 @@ export function mergeCollegeResults(results: CollegeResults[]): CollegeResults {
   let unknown: ParsedTestData[] = [];
 
   results.forEach((result) => {
-    accepted.push(...result.accepted);
-    denied.push(...result.denied);
-    unknown.push(...result.unknown);
+    // result must be defined
+    if (result) {
+      accepted.push(...result.accepted);
+      denied.push(...result.denied);
+      unknown.push(...result.unknown);
+    }
   });
 
   return { accepted, denied, unknown };
