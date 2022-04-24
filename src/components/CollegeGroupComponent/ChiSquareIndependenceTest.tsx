@@ -80,7 +80,7 @@ function AssumptionsAndConditions() {
           name="10%"
           value="N/A, since we’re not looking to generalize to a larger population than our sample/see above?"
         />
-        <AssumptionsAndConditionsLine name="Exp. cell counts ≥ 5" value="??" />
+        <AssumptionsAndConditionsLine name="Exp. cell counts ≥ 5" value="Yes (see table above)" />
       </ol>
       <p>
         OK to run a <TeX>\chi^2</TeX> test for independence.

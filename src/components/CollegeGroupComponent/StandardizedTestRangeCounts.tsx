@@ -1,5 +1,6 @@
 import { createContext, useContext, useMemo } from "react";
 import styled from "styled-components";
+import TeX from "@matejmazur/react-katex";
 
 // context
 import { GroupContext } from ".";
@@ -27,6 +28,14 @@ export default function StandardizedTestRangeCounts() {
   return (
     <section>
       <h2>Counts</h2>
+      <p>
+        Expected counts, shown in parentheses in each cell, are calculated using
+        this formula:
+      </p>
+      <p>
+        <TeX math="E_i = \sum \left(\text{\# SATs or ACTs}\right) \cdot \frac{\sum \text{category}}{\sum \text{row}}" />
+      </p>
+      <p>where category = "accepted" or "denied".</p>
       <RangeCountsTable>
         <thead>
           <tr>
