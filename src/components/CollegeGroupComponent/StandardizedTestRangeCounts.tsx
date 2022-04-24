@@ -35,7 +35,10 @@ export default function StandardizedTestRangeCounts() {
       <p>
         <TeX math="E_i = \sum \left(\text{\# SATs or ACTs}\right) \cdot \frac{\sum \text{category}}{\sum \text{row}}" />
       </p>
-      <p>where category = "accepted" or "denied".</p>
+      <p>
+        where "category" represents the total data for either accepted or
+        denied, depending on the column.
+      </p>
       <RangeCountsTable>
         <thead>
           <tr>
