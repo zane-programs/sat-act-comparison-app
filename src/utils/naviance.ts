@@ -215,13 +215,13 @@ export function convertParsedDataForGraphing({
 
   // DENIED
   let deniedSAT = createPlotlyScatterData(
-    "SAT - Rejected",
+    "SAT - Denied",
     "#ff0000",
     "square",
     convertParsedDataToPoints(denied.filter(({ test }) => test === "sat"))
   );
   let deniedACT = createPlotlyScatterData(
-    "ACT - Rejected",
+    "ACT - Denied",
     "#ff0000",
     "star",
     convertParsedDataToPoints(denied.filter(({ test }) => test === "act"))

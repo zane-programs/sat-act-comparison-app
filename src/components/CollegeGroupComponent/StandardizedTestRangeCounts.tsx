@@ -1,30 +1,36 @@
-import { createContext, useContext, useMemo } from "react";
+import { createContext, useContext, useEffect, useMemo } from "react";
 import styled from "styled-components";
 
+// context
+import { GroupContext } from ".";
+
 // types
-import type {
-  CollegeData,
-  ParsedTestData,
-  CollegeResults,
-} from "../../types/college";
-import { mergeCollegeResults } from "../../utils/naviance";
+import type { CollegeData, CollegeResults } from "../../types/college";
+
+// utils
+import {
+  calculateExpectedCount,
+  createObservedAndExpectedMatrices,
+  getTestCount,
+  groupDataByExpectedCount,
+} from "../../utils/group-data";
 
 const RangeDataContext = createContext<CollegeResults>({} as CollegeResults);
 
-export default function StandardizedTestRangeCounts({
-  data,
-  percentileInterval,
-}: {
-  data: CollegeData;
-  percentileInterval: number;
-}) {
-  const ranges = useMemo(
-    () => generatePercentileRanges(percentileInterval),
-    [percentileInterval]
+export default function StandardizedTestRangeCounts() {
+  const { groupData: data } = useContext(GroupContext);
+
+  const groupedData = useMemo(
+    () => groupDataByExpectedCount(data.data!),
+    [data.data]
   );
 
+  useEffect(() => {
+    console.log(createObservedAndExpectedMatrices(data.data!));
+  }, [data.data]);
+
   return (
-    <>
+    <section>
       <h2>Counts</h2>
       <RangeCountsTable>
         <thead>
@@ -38,33 +44,17 @@ export default function StandardizedTestRangeCounts({
           </tr>
         </thead>
         <tbody>
-          {ranges.map((range) => (
-            <PercentileRangeCountRow
-              key={range[0] + ":" + range[1]}
-              range={range}
-              data={data}
-            />
+          {groupedData.map((group) => (
+            <GroupCountRow rangeData={group} key={JSON.stringify(group)} />
           ))}
           <TotalsRow data={data} />
         </tbody>
       </RangeCountsTable>
-    </>
+    </section>
   );
 }
 
-function PercentileRangeCountRow({
-  range,
-  data: { data },
-}: {
-  range: number[];
-  data: CollegeData;
-}) {
-  // data within the given range
-  const rangeData: CollegeResults | null = useMemo(
-    () => (data ? filterDataByRange(data, range) : null),
-    [data, range]
-  );
-
+function GroupCountRow({ rangeData }: { rangeData: CollegeResults }) {
   // row total
   const rowTotal = useMemo(
     () => (rangeData ? rangeData.accepted.length + rangeData.denied.length : 0),
@@ -73,88 +63,49 @@ function PercentileRangeCountRow({
 
   return (
     <tr>
-      <td>{getPercentileRangeString(range)}</td>
+      <td>
+        {getPercentileRangeString(
+          getPercentileRangeFromCollegeResults(rangeData)
+        )}
+      </td>
       {rangeData ? (
         <RangeDataContext.Provider value={rangeData}>
           {/* Accepted SAT */}
-          <PercentileRangeCountRowCell category="accepted" testName="sat" />
+          <GroupCountRowCell category="accepted" testName="sat" />
           {/* Accepted ACT */}
-          <PercentileRangeCountRowCell category="accepted" testName="act" />
+          <GroupCountRowCell category="accepted" testName="act" />
           {/* Denied SAT */}
-          <PercentileRangeCountRowCell category="denied" testName="sat" />
+          <GroupCountRowCell category="denied" testName="sat" />
           {/* Denied ACT */}
-          <PercentileRangeCountRowCell category="denied" testName="act" />
+          <GroupCountRowCell category="denied" testName="act" />
           {/* Row Total */}
-          <td>
+          <CountCell>
             <strong>{rowTotal}</strong>
-          </td>
+          </CountCell>
         </RangeDataContext.Provider>
       ) : (
         <td colSpan={5}>No data</td>
       )}
     </tr>
   );
-
-  // return (
-  //   <>
-  //     <h3>{getPercentileRangeString(range)}</h3>
-  //     {rangeData ? (
-  //       <ul>
-  //         <li>Accepted: {rangeData.accepted.length}</li>
-  //         <li>Denied: {rangeData.denied.length}</li>
-  //         <li>Unknown: {rangeData.unknown.length}</li>
-  //       </ul>
-  //     ) : (
-  //       "No Data"
-  //     )}
-  //   </>
-  // );
 }
 
-function PercentileRangeCountRowCell({
+function GroupCountRowCell({
   category,
   testName,
 }: {
-  category: "accepted" | "denied" | "unknown";
+  category: "accepted" | "denied";
   testName: "sat" | "act";
 }) {
   const rangeData = useContext(RangeDataContext);
 
-  // const overallTotal = useMemo(
-  //   () => (data ? data.accepted.length + data.denied.length : 0),
-  //   [data]
-  // );
-
-  const categoryData = useMemo(
-    () => rangeData[category],
-    [rangeData, category]
-  );
-
-  const rangeTotal = useMemo(
-    () => rangeData.accepted.length + rangeData.denied.length,
-    [rangeData.accepted.length, rangeData.denied.length]
-  );
-
-  // total number of standardized tests by given name
-  // see category prop ("sat" or "act")
-  const totalStandardizedTestsByName = useMemo(
-    () => getTestCount([...rangeData.accepted, ...rangeData.denied], testName),
-    [rangeData.accepted, rangeData.denied, testName]
-  );
-
-  // rate for this category (accept or deny)
-  const categoryAcceptOrDenyRate = useMemo(
-    () => (rangeTotal === 0 ? 0 : categoryData.length / rangeTotal),
-    [categoryData.length, rangeTotal]
-  );
-
   return (
-    <td>
+    <CountCell>
       {/* test count (see getTestCount) */}
-      {getTestCount(categoryData, testName)}{" "}
+      {getTestCount(rangeData, category, testName)}{" "}
       {/* expected count: total SATs or ACTs multiplied by accept or deny rate for this category */}
-      ({(totalStandardizedTestsByName * categoryAcceptOrDenyRate).toFixed(3)})
-    </td>
+      ({calculateExpectedCount(rangeData, category, testName).toFixed(3)})
+    </CountCell>
   );
 }
 
@@ -165,15 +116,15 @@ function TotalsRow({ data: { data } }: { data: CollegeData }) {
       {data ? (
         <>
           {/* Accepted SAT */}
-          <td>{getTestCount(data.accepted, "sat")}</td>
+          <CountCell>{getTestCount(data, "accepted", "sat")}</CountCell>
           {/* Accepted ACT */}
-          <td>{getTestCount(data.accepted, "act")}</td>
+          <CountCell>{getTestCount(data, "accepted", "act")}</CountCell>
           {/* Denied SAT */}
-          <td>{getTestCount(data.denied, "sat")}</td>
+          <CountCell>{getTestCount(data, "denied", "sat")}</CountCell>
           {/* Denied SAT */}
-          <td>{getTestCount(data.denied, "act")}</td>
+          <CountCell>{getTestCount(data, "denied", "act")}</CountCell>
           {/* Overall Total */}
-          <td>{data.accepted.length + data.denied.length}</td>
+          <CountCell>{data.accepted.length + data.denied.length}</CountCell>
         </>
       ) : (
         <td colSpan={5}>No data</td>
@@ -182,81 +133,24 @@ function TotalsRow({ data: { data } }: { data: CollegeData }) {
   );
 }
 
-function getTestCount(data: ParsedTestData[], testName: "sat" | "act") {
-  return data.filter((datum) => datum.test === testName).length;
-}
-
-function filterDataByRange(
-  { accepted, denied, unknown }: CollegeResults,
-  range: number[]
-): CollegeResults {
-  return {
-    accepted: _filterDataByRangeInternal(accepted, range),
-    denied: _filterDataByRangeInternal(denied, range),
-    unknown: _filterDataByRangeInternal(unknown, range),
-  };
-}
-
-function _filterDataByRangeInternal(
-  dataList: ParsedTestData[],
-  range: number[]
-): ParsedTestData[] {
-  return dataList.filter(
-    ({ percentile }) =>
-      percentile <= Math.max(...range) && percentile >= Math.min(...range)
-  );
-}
-
-function groupDataByExpectedCount(data: CollegeResults): CollegeResults[] {
-  let groupedData: CollegeResults[] = [];
-
-  let currentGroup: CollegeResults = { accepted: [], denied: [], unknown: [] };
-  for (let x = 100; x > 0; x -= 2) {
-    // merge current group and data in percentile range
-    currentGroup = mergeCollegeResults([
-      currentGroup,
-      filterDataByRange(data, [x, x - 1]),
-    ]);
-
-    if (true) {
-      // add group data to array
-      groupedData.push(currentGroup);
-
-      // clear current group
-      currentGroup = { accepted: [], denied: [], unknown: [] };
-    }
-  }
-
-  return groupedData;
-}
-
-function verifyExpectedCountsGreaterThanFive(
-  collegeData: CollegeData,
-  rowResults: CollegeResults
-): boolean {
-  // const rowTotal =
-  //   rowResults.accepted.length +
-  //   rowResults.denied.length +
-  //   rowResults.unknown.length;
-
-  return true;
-}
-
-function generatePercentileRanges(interval: number): number[][] {
-  let x = 100;
-  let percentiles = [];
-
-  while (x > 0) {
-    // percentiles.push([x === 100 ? x : x - 1, x - interval]);
-    percentiles.push([x - interval, x === 100 ? x : x - 1]);
-    x -= interval;
-  }
-
-  return percentiles;
-}
-
 function getPercentileRangeString(range: number[]) {
   return `${range[0]}th - ${range[1]}th Percentiles`;
+}
+
+function getPercentileRangeFromCollegeResults({
+  accepted,
+  denied,
+}: CollegeResults): number[] {
+  // get percentiles from accepted and denied data
+  const acceptedAndDeniedPercentiles = [...accepted, ...denied].map(
+    (datum) => datum.percentile
+  );
+
+  // return min and max of data
+  return [
+    Math.min(...acceptedAndDeniedPercentiles),
+    Math.max(...acceptedAndDeniedPercentiles),
+  ];
 }
 
 const RangeCountsTable = styled.table`
@@ -271,6 +165,11 @@ const RangeCountsTable = styled.table`
   & td {
     padding: 5px;
   }
+`;
+
+const CountCell = styled.td`
+  font-family: monospace;
+  font-size: 14px;
 `;
 
 const TotalsRowTr = styled.tr`
