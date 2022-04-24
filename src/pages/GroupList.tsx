@@ -7,8 +7,8 @@ export default function GroupList() {
       <h1>Groups</h1>
       <p>
         <i>
-          A handcrafted selection of colleges for use in chi-square
-          (homogeneity?) tests
+          A handcrafted selection of colleges for use in chi-square independence
+          tests
         </i>
       </p>
       <ul>
