@@ -202,13 +202,13 @@ export function convertParsedDataForGraphing({
   // ACCEPTED
   let acceptedSAT = createPlotlyScatterData(
     "SAT - Accepted",
-    "#00c800",
+    "rgba(0,200,0,0.7)",
     "square",
     convertParsedDataToPoints(accepted.filter(({ test }) => test === "sat"))
   );
   let acceptedACT = createPlotlyScatterData(
     "ACT - Accepted",
-    "#00c800",
+    "rgba(0,200,0,0.7)",
     "star",
     convertParsedDataToPoints(accepted.filter(({ test }) => test === "act"))
   );
@@ -216,13 +216,13 @@ export function convertParsedDataForGraphing({
   // DENIED
   let deniedSAT = createPlotlyScatterData(
     "SAT - Denied",
-    "#ff0000",
+    "rgba(255,0,0,0.7)",
     "square",
     convertParsedDataToPoints(denied.filter(({ test }) => test === "sat"))
   );
   let deniedACT = createPlotlyScatterData(
     "ACT - Denied",
-    "#ff0000",
+    "rgba(255,0,0,0.7)",
     "star",
     convertParsedDataToPoints(denied.filter(({ test }) => test === "act"))
   );
@@ -230,13 +230,13 @@ export function convertParsedDataForGraphing({
   // UNKNOWN (we don't know what the status code meant)
   let unknownSAT = createPlotlyScatterData(
     "SAT - Unknown",
-    "#aaaaaa",
+    "rgba(170,170,170,0.7)",
     "square",
     convertParsedDataToPoints(unknown.filter(({ test }) => test === "sat"))
   );
   let unknownACT = createPlotlyScatterData(
     "ACT - Unknown",
-    "#aaaaaa",
+    "rgba(170,170,170,0.7)",
     "star",
     convertParsedDataToPoints(unknown.filter(({ test }) => test === "act"))
   );
@@ -255,7 +255,16 @@ function convertParsedDataToPoints(data: ParsedTestData[]): LabeledPoint[] {
   return data.map((datum) => ({
     x: datum.percentile,
     y: datum.gpa,
-    extraText: `${datum.rawScore} ${datum.test.toUpperCase()}`,
+    extraText: `${
+      // raw score (SAT or ACT)
+      datum.rawScore
+    } ${
+      // test type (SAT or ACT)
+      datum.test.toUpperCase()
+    }<br>${
+      // application status converted to readable text
+      convertApplicationStatusToText(datum.status)
+    }`,
   }));
 }
 
@@ -330,4 +339,29 @@ export function mergeCollegeResults(results: CollegeResults[]): CollegeResults {
   });
 
   return { accepted, denied, unknown };
+}
+
+function convertApplicationStatusToText(status: string) {
+  // split status by uppercase letters, keeping
+  // the split letters (keep delimiter thanks to:
+  // https://stackoverflow.com/a/25221523)
+  const statusArr = status.split(/(?=[A-Z]+)/g);
+
+  // get second, then first, letter of the
+  // decision status
+  const decisionTypeSecondLetter = statusArr.pop();
+  const decisionTypeFirstLetter = statusArr.pop();
+
+  // concatenate the decision type letters
+  const decisionType = decisionTypeFirstLetter! + decisionTypeSecondLetter!;
+
+  // capitalize words and tack on decision type
+  // at the end
+  return (
+    statusArr
+      .map((word) => word.charAt(0).toUpperCase() + word.substring(1))
+      .join(" ") +
+    " " +
+    decisionType
+  );
 }

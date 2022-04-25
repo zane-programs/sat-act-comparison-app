@@ -40,6 +40,9 @@ export default function CollegeScatterPlot({
             text: "Weighted GPA",
           },
         },
+        hoverlabel: {
+          bgcolor: "#333333",
+        },
       }}
     />
   );
